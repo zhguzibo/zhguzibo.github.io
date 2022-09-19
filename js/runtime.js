@@ -1,3 +1,4 @@
+// 底部本站运行时间
 var now=new Date;function createtime(){
     var grt=new Date("09/16/2022 00:00:00");
     now.setTime(now.getTime()+250);
@@ -7,3 +8,5 @@ var now=new Date;function createtime(){
     currentTimeHtml=`
     <span class='textTip'>  本站居然运行了 ${dnum} 天</span>
     <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> `,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);
+
+    

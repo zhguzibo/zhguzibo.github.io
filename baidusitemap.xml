@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://example.com/gengxinrizhi/index/</loc>
-    <lastmod>2022-09-19</lastmod>
+    <lastmod>2022-09-21</lastmod>
   </url>
   <url>
-    <loc>http://example.com/categoriesmenu/index/</loc>
-    <lastmod>2022-09-19</lastmod>
+    <loc>http://example.com/caidan/</loc>
+    <lastmod>2022-09-21</lastmod>
   </url>
   <url>
-    <loc>http://example.com/blogbeautification/index/</loc>
+    <loc>http://example.com/bokemeihua/index/</loc>
+    <lastmod>2022-09-20</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/qianduan/js/javascriptshuzuapi/</loc>
+    <lastmod>2022-09-20</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/daohangcaidan/index/</loc>
     <lastmod>2022-09-19</lastmod>
   </url>
 </urlset> 

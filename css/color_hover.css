@@ -1,0 +1,20 @@
+  /* 右下角菜单配置颜色 */
+#rightside > div > button {
+    border-radius: 5px;
+    background-color: #ffaaff;
+  }
+  
+  #rightside > div > button:hover{
+    border-radius: 5px;
+    background-color: #a29eea;
+  }
+  
+  /* 侧边follow配置颜色 */
+  a#card-info-btn {
+    background-color: #ffaaff !important;
+  }
+  
+  a#card-info-btn:hover {
+    background-color: #a29eea !important;
+  }
+

@@ -109,19 +109,10 @@ div#category  /* 分类页面 */
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 1px 1px 15px #AE64B7;
 }
-
-/* 底部字体颜色 */
-.copyright{
-  color: black !important;
-}
-[data-theme=dark] .copyright{
-  color: white !important;
-}
-#workboard{
-  color: black !important
-}
-[data-theme=dark] #workboard{
-  color: white !important;
+/*GitHub开源圆角*/
+#card-info-btn {
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 
@@ -445,4 +436,5 @@ margin-top: 0.0rem;
 .page{
   background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);
 }
+
 

@@ -1,13 +1,13 @@
 /* 首页分类条展示 */
 #category-bar{
     padding: 0.4rem 1rem 0.4rem 0.5rem;
-    background: #fff;
+    background: var(--gale-cardBg);
     border-radius: 12px;
     display: flex;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 1rem;
-    border: #000;
+    border: var(--style-border);
   }
   
   @media screen and (max-width: 768px){
@@ -52,13 +52,13 @@
   }
   
   .category-bar-item:hover a{
-    background: #ffaaff;
-    color: #fff;
+    background: var(--gale-main);
+    color: var(--gale-white);
   }
   
   .category-bar-item.select a {
-    background: #ffaaff;
-    color: #fff;
+    background: var(--gale-main);
+    color: var(--gale-white);
     border-radius: 12px;
   }
   
@@ -68,6 +68,6 @@
   }
 
   .category-bar-more:hover{
-    color: #ffaaff;
+    color: var(--gale-main);
   }
   

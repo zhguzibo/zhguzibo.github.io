@@ -1,3 +1,4 @@
+// 分类页标签页检测
 tagsBarActive()
 categoriesBarActive()
 topCategoriesBarScroll()

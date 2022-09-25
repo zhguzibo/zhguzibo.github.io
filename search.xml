@@ -124,28 +124,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/color_hover.css"/>
-      <url>/css/color_hover.css</url>
-      
-        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -157,11 +135,77 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: 'ZhuZiAYuanJWD';}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: 'iconfont' !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span{  color: #f2b94b;}.bangumi-info-item em{  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 , 首页侧栏卡片 */#recent-posts > .recent-post-item , /* 首页文章卡片 */#aside-content .card-widget , /*  首页侧栏卡片 */div#post ,  /* 文章页面正文背景 */div#page ,  /* 分页页面 */div#archive , /* 归档页面 */div#tag  ,  /* 标签页面 */div#category  /* 分类页面 */{  background: rgba(255, 255, 255, 0.9);  box-shadow: 1px 1px 15px #AE64B7;}/*GitHub开源圆角*/#card-info-btn {  border-radius: 7px;  overflow: hidden;}/*夜间模式伪类遮罩层透明*/[data-theme='dark'] #recent-posts > .recent-post-item {  background: #121212;}[data-theme='dark'] .card-widget {  background: #121212 !important;}[data-theme='dark'] div#post {  background: #121212 !important;}[data-theme='dark'] div#tag {  background: #121212 !important;}[data-theme='dark'] div#archive {  background: #121212 !important;}[data-theme='dark'] div#page {  background: #121212 !important;}[data-theme='dark'] div#category {  background: #121212 !important;}[data-theme='dark'] div#category {  background: transparent !important;}/* 非一图流删除 *//* 页脚透明 */#footer {  background: transparent !important;} /* 头图透明 */ /* #page-header {  background: transparent !important;}  *//* 滚动条渐变 */::-webkit-scrollbar {  width: 8px;  height: 8px;} ::-webkit-scrollbar-track {  background-color: #fff4f1;  border-radius: 2em;} ::-webkit-scrollbar-thumb {  background-color: #ffaaff;  background-image: -webkit-linear-gradient(    45deg,    rgba(255, 255, 255, 0.4) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, 0.4) 50%,    rgba(255, 255, 255, 0.4) 75%,    transparent 75%,    transparent  );  border-radius: 2em;} ::-webkit-scrollbar-corner {  background-color: transparent;} ::-moz-selection {  color: #fff;  background-color: #49b1f5;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #425aef;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--heo-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {-webkit-animation: ccc 1.6s linear infinite ;animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}@keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}#content-inner.layout h1::before {color: #ef50a8 ;margin-left: -1.55rem;font-size: 1.3rem;margin-top: -0.23rem;}#content-inner.layout h2::before {color: #fb7061 ;margin-left: -1.35rem;font-size: 1.1rem;margin-top: -0.12rem;}#content-inner.layout h3::before {color: #ffbf00 ;margin-left: -1.22rem;font-size: 0.95rem;margin-top: -0.09rem;}#content-inner.layout h4::before {color: #a9e000 ;margin-left: -1.05rem;font-size: 0.8rem;margin-top: -0.09rem;}#content-inner.layout h5::before {color: #57c850 ;margin-left: -0.9rem;font-size: 0.7rem;margin-top: 0.0rem;}#content-inner.layout h6::before {color: #5ec1e0 ;margin-left: -0.9rem;font-size: 0.66rem;margin-top: 0.0rem;}/* 背景渐变色 */.page{  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/mainColor.css"/>
       <url>/css/mainColor.css</url>
       
         <content type="html"><![CDATA[/* 配置主色调 */:root{    --gale-white:#fff;    --gale-black:#000;    --gale-main: var(--gale-theme);    --gale-font-color: var(--gale-fontColor);    --style-border: 1px solid var(--gale-cardBorder);}[data-theme=light] {    --gale-theme:#ffaaff;    --gale-fontColor: var(--gale-black);    --gale-cardBg: #fff;       --gale-cardBorder: #e3e8f7;    --gale-btnBg: #ffaaff;    --gale-btnBgHover: #a29eea;    --gale-cartTextBgHover: #ffaaff;}[data-theme=dark] {    --gale-theme:#ffaaff;    --gale-fontColor: var(--gale-white);    --gale-cardBg: #1d1b26;    --gale-cardBorder: #42444a;    --gale-btnBg: #ffaaff;    --gale-btnBgHover: #a29eea;    --gale-cartTextBgHover: #ffaaff;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/runtime.css"/>
+      <url>/css/runtime.css</url>
+      
+        <content type="html"><![CDATA[/* 底部runtime */div#runtime{    width:180px;    margin:auto;    color:#fff;    padding-inline:5px;    border-radius:10px;    background-color:rgba(0,0,0,.7)  }  #workboard{      font-size:12px  }  [data-theme=dark] div#runtime{    color:#28b4c8;    box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate  }#ghbdages .github-badge img{    height:20px  }  @-moz-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-webkit-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-o-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/color_hover.css"/>
+      <url>/css/color_hover.css</url>
+      
+        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
       
     </entry>
     
@@ -190,44 +234,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/runtime.css"/>
-      <url>/css/runtime.css</url>
-      
-        <content type="html"><![CDATA[/* 底部runtime */div#runtime{    width:180px;    margin:auto;    color:#fff;    padding-inline:5px;    border-radius:10px;    background-color:rgba(0,0,0,.7)  }  #workboard{      font-size:12px  }  [data-theme=dark] div#runtime{    color:#28b4c8;    box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate  }#ghbdages .github-badge img{    height:20px  }  @-moz-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-webkit-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-o-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>短文</title>
       <link href="/essay/index.html"/>
       <url>/essay/index.html</url>
       
         <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>相册</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -246,39 +257,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: 'ZhuZiAYuanJWD';}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: 'iconfont' !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span{  color: #f2b94b;}.bangumi-info-item em{  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 , 首页侧栏卡片 */#recent-posts > .recent-post-item , /* 首页文章卡片 */#aside-content .card-widget , /*  首页侧栏卡片 */div#post ,  /* 文章页面正文背景 */div#page ,  /* 分页页面 */div#archive , /* 归档页面 */div#tag  ,  /* 标签页面 */div#category  /* 分类页面 */{  background: rgba(255, 255, 255, 0.9);  box-shadow: 1px 1px 15px #AE64B7;}/*GitHub开源圆角*/#card-info-btn {  border-radius: 7px;  overflow: hidden;}/*夜间模式伪类遮罩层透明*/[data-theme='dark'] #recent-posts > .recent-post-item {  background: #121212;}[data-theme='dark'] .card-widget {  background: #121212 !important;}[data-theme='dark'] div#post {  background: #121212 !important;}[data-theme='dark'] div#tag {  background: #121212 !important;}[data-theme='dark'] div#archive {  background: #121212 !important;}[data-theme='dark'] div#page {  background: #121212 !important;}[data-theme='dark'] div#category {  background: #121212 !important;}[data-theme='dark'] div#category {  background: transparent !important;}/* 非一图流删除 *//* 页脚透明 */#footer {  background: transparent !important;} /* 头图透明 */ /* #page-header {  background: transparent !important;}  *//* 滚动条渐变 */::-webkit-scrollbar {  width: 8px;  height: 8px;} ::-webkit-scrollbar-track {  background-color: #fff4f1;  border-radius: 2em;} ::-webkit-scrollbar-thumb {  background-color: #ffaaff;  background-image: -webkit-linear-gradient(    45deg,    rgba(255, 255, 255, 0.4) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, 0.4) 50%,    rgba(255, 255, 255, 0.4) 75%,    transparent 75%,    transparent  );  border-radius: 2em;} ::-webkit-scrollbar-corner {  background-color: transparent;} ::-moz-selection {  color: #fff;  background-color: #49b1f5;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #425aef;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--heo-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {-webkit-animation: ccc 1.6s linear infinite ;animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}@keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}#content-inner.layout h1::before {color: #ef50a8 ;margin-left: -1.55rem;font-size: 1.3rem;margin-top: -0.23rem;}#content-inner.layout h2::before {color: #fb7061 ;margin-left: -1.35rem;font-size: 1.1rem;margin-top: -0.12rem;}#content-inner.layout h3::before {color: #ffbf00 ;margin-left: -1.22rem;font-size: 0.95rem;margin-top: -0.09rem;}#content-inner.layout h4::before {color: #a9e000 ;margin-left: -1.05rem;font-size: 0.8rem;margin-top: -0.09rem;}#content-inner.layout h5::before {color: #57c850 ;margin-left: -0.9rem;font-size: 0.7rem;margin-top: 0.0rem;}#content-inner.layout h6::before {color: #5ec1e0 ;margin-left: -0.9rem;font-size: 0.66rem;margin-top: 0.0rem;}/* 背景渐变色 */.page{  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/img/manifest.json"/>
-      <url>/img/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"gale","short_name":"gale","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/128.png","sizes":"128x128","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-zpjANXFW" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/console.js"/>
       <url>/js/console.js</url>
       
@@ -290,10 +268,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/tagsBarActive.js"/>
-      <url>/js/tagsBarActive.js</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[// 分类页标签页检测tagsBarActive()categoriesBarActive()topCategoriesBarScroll()//标签条function tagsBarActive(){    var urlinfo = window.location.pathname;    urlinfo = decodeURIComponent(urlinfo)    // console.log(urlinfo);    //判断是否是首页    if (urlinfo == '/'){      if (document.querySelector('#tags-bar')){        document.getElementById('首页').classList.add("select")      }    }else {      // 验证是否是分类链接      var pattern = /\/tags\/.*?\//;      var patbool = pattern.test(urlinfo);      // console.log(patbool);      // 获取当前的标签      if (patbool) {        var valuegroup = urlinfo.split("/");        //console.log(valuegroup[2]);        // 获取当前分类        var nowTag = valuegroup[2];        if (document.querySelector('#category-bar')){          document.getElementById(nowTag).classList.add("select");        }      }    }   }//分类条function categoriesBarActive(){  var urlinfo = window.location.pathname;  urlinfo = decodeURIComponent(urlinfo)  //判断是否是首页  if (urlinfo == '/'){    if (document.querySelector('#category-bar')){      document.getElementById('首页').classList.add("select")    }  }else {    // 验证是否是分类链接    var pattern = /\/categories\/.*?\//;    var patbool = pattern.test(urlinfo);    // 获取当前的分类    if (patbool) {      var valuegroup = urlinfo.split("/");      // 获取当前分类      var nowCategorie = valuegroup[2];      if (document.querySelector('#category-bar')){        document.getElementById(nowCategorie).classList.add("select");      }    }  }  }//鼠标控制横向滚动function topCategoriesBarScroll(){  if (document.getElementById("category-bar-items")){    let xscroll = document.getElementById("category-bar-items");  xscroll.addEventListener("mousewheel", function (e) {    //计算鼠标滚轮滚动的距离    let v = -e.wheelDelta / 2;    xscroll.scrollLeft += v;    //阻止浏览器默认方法    e.preventDefault();}, false);  }}]]></content>
+        <content type="html"><![CDATA[// 底部本站运行时间var now=new Date;function createtime(){    var grt=new Date("09/16/2022 00:00:00");    now.setTime(now.getTime()+250);    var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);    var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);    var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";    currentTimeHtml=`    <span class='textTip'>  本站居然运行了 ${dnum} 天</span>    <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
       
     </entry>
     
@@ -312,6 +290,17 @@
     
     <entry>
       <title></title>
+      <link href="/img/manifest.json"/>
+      <url>/img/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"gale","short_name":"gale","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/128.png","sizes":"128x128","type":"image/png"}],"splash_pages":null}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/timing.js"/>
       <url>/js/timing.js</url>
       
@@ -322,33 +311,11 @@
     
     
     <entry>
-      <title>动态</title>
-      <link href="/zone/index.html"/>
-      <url>/zone/index.html</url>
-      
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/tagsBarActive.js"/>
+      <url>/js/tagsBarActive.js</url>
       
-        <content type="html"><![CDATA[// 底部本站运行时间var now=new Date;function createtime(){    var grt=new Date("09/16/2022 00:00:00");    now.setTime(now.getTime()+250);    var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);    var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);    var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";    currentTimeHtml=`    <span class='textTip'>  本站居然运行了 ${dnum} 天</span>    <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
+        <content type="html"><![CDATA[// 分类页标签页检测tagsBarActive()categoriesBarActive()topCategoriesBarScroll()//标签条function tagsBarActive(){    var urlinfo = window.location.pathname;    urlinfo = decodeURIComponent(urlinfo)    // console.log(urlinfo);    //判断是否是首页    if (urlinfo == '/'){      if (document.querySelector('#tags-bar')){        document.getElementById('首页').classList.add("select")      }    }else {      // 验证是否是分类链接      var pattern = /\/tags\/.*?\//;      var patbool = pattern.test(urlinfo);      // console.log(patbool);      // 获取当前的标签      if (patbool) {        var valuegroup = urlinfo.split("/");        //console.log(valuegroup[2]);        // 获取当前分类        var nowTag = valuegroup[2];        if (document.querySelector('#category-bar')){          document.getElementById(nowTag).classList.add("select");        }      }    }   }//分类条function categoriesBarActive(){  var urlinfo = window.location.pathname;  urlinfo = decodeURIComponent(urlinfo)  //判断是否是首页  if (urlinfo == '/'){    if (document.querySelector('#category-bar')){      document.getElementById('首页').classList.add("select")    }  }else {    // 验证是否是分类链接    var pattern = /\/categories\/.*?\//;    var patbool = pattern.test(urlinfo);    // 获取当前的分类    if (patbool) {      var valuegroup = urlinfo.split("/");      // 获取当前分类      var nowCategorie = valuegroup[2];      if (document.querySelector('#category-bar')){        document.getElementById(nowCategorie).classList.add("select");      }    }  }  }//鼠标控制横向滚动function topCategoriesBarScroll(){  if (document.getElementById("category-bar-items")){    let xscroll = document.getElementById("category-bar-items");  xscroll.addEventListener("mousewheel", function (e) {    //计算鼠标滚轮滚动的距离    let v = -e.wheelDelta / 2;    xscroll.scrollLeft += v;    //阻止浏览器默认方法    e.preventDefault();}, false);  }}]]></content>
       
     </entry>
     
@@ -366,11 +333,33 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/page/page_archive.css"/>
-      <url>/css/page/page_archive.css</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[/* 归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
+        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-rwRscLZg" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动态</title>
+      <link href="/zone/index.html"/>
+      <url>/zone/index.html</url>
+      
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
       
     </entry>
     
@@ -389,32 +378,21 @@
     
     <entry>
       <title></title>
+      <link href="/css/page/page_archive.css"/>
+      <url>/css/page/page_archive.css</url>
+      
+        <content type="html"><![CDATA[/* 归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/page/page_tag.css"/>
       <url>/css/page/page_tag.css</url>
       
         <content type="html"><![CDATA[/* 标签 *//* #aside-content .card-tag-cloud a {border: 1px solid;line-height: 1.5;border-radius: 6px;margin: 3px;padding: 0 5px;}.tag-cloud-list a {border: 1px solid;line-height: 1.5;border-radius: 6px;padding: 5px 15px;font-size: 1.2rem;margin: 5px;} *//* tags样式 */#aside-content .card-tag-cloud a {    font-size: 1.05rem !important;    border-radius: 8px;    display: inline-block;    margin-right: 4px;  }#aside-content .card-tag-cloud a:hover {    background: #ffaaff;    color: #fff !important;    box-shadow:  #a29eea;  }@media screen and (min-width: 1300px) {    #aside-content .card-tag-cloud a:hover {      transform: scale(1.03);    }    #aside-content .card-tag-cloud a:active {      transform: scale(0.97);    }  }#aside-content .card-tag-cloud a sup {    opacity: .4;    margin-left: 2px;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ohmygirl</title>
-      <link href="/gallery/ohmygirl/index.html"/>
-      <url>/gallery/ohmygirl/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.netnet/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>河山大好，出去走走</title>
-      <link href="/gallery/marvel/index.html"/>
-      <url>/gallery/marvel/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
       
     </entry>
     
@@ -432,11 +410,33 @@
     
     
     <entry>
+      <title>河山大好，出去走走</title>
+      <link href="/gallery/marvel/index.html"/>
+      <url>/gallery/marvel/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>壁纸</title>
       <link href="/gallery/wallpaper/index.html"/>
       <url>/gallery/wallpaper/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ohmygirl</title>
+      <link href="/gallery/ohmygirl/index.html"/>
+      <url>/gallery/ohmygirl/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.netnet/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
       
     </entry>
     

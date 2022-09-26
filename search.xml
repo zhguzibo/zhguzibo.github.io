@@ -48,7 +48,7 @@
       <link href="/posts/85af.html"/>
       <url>/posts/85af.html</url>
       
-        <content type="html"><![CDATA[<div class="note [class] [no-icon] [style] flat"><p>文章记录了，网站破壳以来进行的更新</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2022</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-16</p></div></div><div class='timeline-item-content'><p>网站破壳日,使用 Butterfly 主题</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-18</p></div></div><div class='timeline-item-content'><p>网站初步搭建完成</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-19</p></div></div><div class='timeline-item-content'><p>1.网站增加留言板页面<br>2.首页添加了分类磁贴<br>3.首页添加了置顶文章的轮播图</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-20</p></div></div><div class='timeline-item-content'><p>1.修改了网站背景，改为色彩渐变<br>2.公告栏增加了浏览网站的时间<br>3.增加了标签的上标</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-22</p></div></div><div class='timeline-item-content'><p>1.顶部加入了进度条，参考 <a href="https://blog.jayhrn.com/posts/7eab/">Butterfly 美化 ——Progress Bar</a><br>2.顶部的导航栏居中，参考 <a href="https://blog.jayhrn.com/posts/2b5b/">Butterfly 美化 —— 导航栏居中</a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-22</p></div></div><div class='timeline-item-content'><p>1.为主页的文章增加了最近标签<br>2.美化了侧边栏的最近文章卡片<br>3.增加了标签页面与分类页面上方列表，参考了<a href="https://blog.justlovesmile.top/posts/2bfb1caa.html">Hexo博客 | 动态分类标签条，自动获取全站分类与标签进行展示</a><br>4.处理标签子级页面，侧边栏仍然出现的 Bug ，参考了<a href="https://www.aohuiliu.fun/posts/29090/">【魔改】去除标签和分类页子页面的侧边栏</a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-23</p></div></div><div class='timeline-item-content'><p>1.在右下角菜单添加随机访问一篇文章按钮，随机访问文章实现方式参考了<a href="https://blog.jayhrn.com/posts/c16f/">Hexo 博客实现页面随机跳转</a></p></div></div></div>]]></content>
+        <content type="html"><![CDATA[<div class="note [class] [no-icon] [style] flat"><p>文章记录了，网站破壳以来进行的更新</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2022</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-16</p></div></div><div class='timeline-item-content'><p>网站破壳日,使用 Butterfly 主题</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-18</p></div></div><div class='timeline-item-content'><p>网站初步搭建完成</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-19</p></div></div><div class='timeline-item-content'><p>1.网站增加留言板页面<br>2.首页添加了分类磁贴<br>3.首页添加了置顶文章的轮播图</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-20</p></div></div><div class='timeline-item-content'><p>1.修改了网站背景，改为色彩渐变<br>2.公告栏增加了浏览网站的时间<br>3.增加了标签的上标</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-22</p></div></div><div class='timeline-item-content'><p>1.顶部加入了进度条，参考 <a href="https://blog.jayhrn.com/posts/7eab/">Butterfly 美化 ——Progress Bar</a><br>2.顶部的导航栏居中，参考 <a href="https://blog.jayhrn.com/posts/2b5b/">Butterfly 美化 —— 导航栏居中</a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-22</p></div></div><div class='timeline-item-content'><p>1.为主页的文章增加了最近标签<br>2.美化了侧边栏的最近文章卡片<br>3.增加了标签页面与分类页面上方列表，参考了<a href="https://blog.justlovesmile.top/posts/2bfb1caa.html">Hexo博客 | 动态分类标签条，自动获取全站分类与标签进行展示</a><br>4.处理标签子级页面，侧边栏仍然出现的 Bug ，参考了<a href="https://www.aohuiliu.fun/posts/29090/">【魔改】去除标签和分类页子页面的侧边栏</a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-23</p></div></div><div class='timeline-item-content'><p>1.在右下角菜单添加随机访问一篇文章按钮，随机访问文章实现方式参考了<a href="https://blog.jayhrn.com/posts/c16f/">Hexo 博客实现页面随机跳转</a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>09-25</p></div></div><div class='timeline-item-content'><p>1.美化归档分类标签页的文章，参考了<a href="https://www.chuckle.top/article/a19bb7fb.html">归档、分类、标签页文章卡片加上所属分类和标签</a></p><p><div class="tip error"><p>复制源代码，标签未出现<code>theme.post_meta.page.tags</code>结果为 false</p></div><br>2.分类页面修改</p></div></div></div><div class="note info simple"><p>待优化</p></div><div class='checkbox green'><input type="checkbox" />            <p>分类二级目录链接仍会出现中文</p>            </div>]]></content>
       
       
       <categories>
@@ -124,28 +124,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: 'ZhuZiAYuanJWD';}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: 'iconfont' !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span{  color: #f2b94b;}.bangumi-info-item em{  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 , 首页侧栏卡片 */#recent-posts > .recent-post-item , /* 首页文章卡片 */#aside-content .card-widget , /*  首页侧栏卡片 */div#post ,  /* 文章页面正文背景 */div#page ,  /* 分页页面 */div#archive , /* 归档页面 */div#tag  ,  /* 标签页面 */div#category  /* 分类页面 */{  background: rgba(255, 255, 255, 0.9);  box-shadow: 1px 1px 15px #AE64B7;}/*GitHub开源圆角*/#card-info-btn {  border-radius: 7px;  overflow: hidden;}/*夜间模式伪类遮罩层透明*/[data-theme='dark'] #recent-posts > .recent-post-item {  background: #121212;}[data-theme='dark'] .card-widget {  background: #121212 !important;}[data-theme='dark'] div#post {  background: #121212 !important;}[data-theme='dark'] div#tag {  background: #121212 !important;}[data-theme='dark'] div#archive {  background: #121212 !important;}[data-theme='dark'] div#page {  background: #121212 !important;}[data-theme='dark'] div#category {  background: #121212 !important;}[data-theme='dark'] div#category {  background: transparent !important;}/* 非一图流删除 *//* 页脚透明 */#footer {  background: transparent !important;} /* 头图透明 */ /* #page-header {  background: transparent !important;}  *//* 滚动条渐变 */::-webkit-scrollbar {  width: 8px;  height: 8px;} ::-webkit-scrollbar-track {  background-color: #fff4f1;  border-radius: 2em;} ::-webkit-scrollbar-thumb {  background-color: #ffaaff;  background-image: -webkit-linear-gradient(    45deg,    rgba(255, 255, 255, 0.4) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, 0.4) 50%,    rgba(255, 255, 255, 0.4) 75%,    transparent 75%,    transparent  );  border-radius: 2em;} ::-webkit-scrollbar-corner {  background-color: transparent;} ::-moz-selection {  color: #fff;  background-color: #49b1f5;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #425aef;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--heo-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {-webkit-animation: ccc 1.6s linear infinite ;animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}@keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}#content-inner.layout h1::before {color: #ef50a8 ;margin-left: -1.55rem;font-size: 1.3rem;margin-top: -0.23rem;}#content-inner.layout h2::before {color: #fb7061 ;margin-left: -1.35rem;font-size: 1.1rem;margin-top: -0.12rem;}#content-inner.layout h3::before {color: #ffbf00 ;margin-left: -1.22rem;font-size: 0.95rem;margin-top: -0.09rem;}#content-inner.layout h4::before {color: #a9e000 ;margin-left: -1.05rem;font-size: 0.8rem;margin-top: -0.09rem;}#content-inner.layout h5::before {color: #57c850 ;margin-left: -0.9rem;font-size: 0.7rem;margin-top: 0.0rem;}#content-inner.layout h6::before {color: #5ec1e0 ;margin-left: -0.9rem;font-size: 0.66rem;margin-top: 0.0rem;}/* 背景渐变色 */.page{  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -168,31 +146,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/color_hover.css"/>
-      <url>/css/color_hover.css</url>
-      
-        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/menu_center.css"/>
-      <url>/css/menu_center.css</url>
-      
-        <content type="html"><![CDATA[/* 导航栏居中 */#nav .menus_items {    /* display: inline; 这个带不带都可以，本来就是inline */    position: absolute;    width: fit-content;    left: 50%;    transform: translateX(-50%);    }/* 横向排布子菜单 */#nav .menus_items .menus_item .menus_item_child li {    display: inline-block;  }  /* 圆角隐藏 */  ul.menus_item_child {    overflow: hidden;    border-radius: 5px;  }  /* 调整空隙，确保不会天下武功唯快不破 */  #nav .menus_items .menus_item .menus_item_child {    margin-top: 0px !important;    left: -70px  }    .menus_item_child li:not(#sidebar-menus li){    float: left;    border-radius: 6px!important;    -webkit-border-radius: 6px!important;    -moz-border-radius: 6px!important;    -ms-border-radius: 6px!important;    -o-border-radius: 6px!important;}/* 左上角悬停主页 */#site-name::before{  opacity: 0;  background-color: #ed709b !important;  border-radius: 8px;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;  position:absolute;  top:0!important;  right:0!important;  width:100%;  height:100%;  content: "\f015";  box-shadow: 0 0 5px #ed709b;  font-family: "Font Awesome 6 Free";  text-align: center;  color:white;  line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/  font-size: 18px;/*根据个人喜好*/}#site-name:hover::before{  opacity: 1;  scale:1.03;}#site-name{  position: relative;  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/}/* 顶栏常驻 */.nav-fixed #nav{  transform: translateY(58px)!important;  -webkit-transform: translateY(58px)!important;  -moz-transform: translateY(58px)!important;  -ms-transform: translateY(58px)!important;  -o-transform: translateY(58px)!important;}#nav{  transition: none!important;  -webkit-transition: none!important;  -moz-transition: none!important;  -ms-transition: none!important;  -o-transition: none!important;}/* 去除动画 */#nav *::after{  background-color: transparent!important;}.site-page:hover,.site-page.group:hover{    width:100%;  height:100%;  border-radius: 4px;  background-color: #ffaaff !important;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>短文</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
       
@@ -213,10 +169,32 @@
     
     <entry>
       <title></title>
-      <link href="/css/runtime.css"/>
-      <url>/css/runtime.css</url>
+      <link href="/css/menu_center.css"/>
+      <url>/css/menu_center.css</url>
       
-        <content type="html"><![CDATA[/* 底部runtime */div#runtime{    width:180px;    margin:auto;    color:#fff;    padding-inline:5px;    border-radius:10px;    background-color:rgba(0,0,0,.7)  }  #workboard{      font-size:12px  }  [data-theme=dark] div#runtime{    color:#28b4c8;    box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate  }#ghbdages .github-badge img{    height:20px  }  @-moz-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-webkit-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-o-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }]]></content>
+        <content type="html"><![CDATA[/* 导航栏居中 */#nav .menus_items {    /* display: inline; 这个带不带都可以，本来就是inline */    position: absolute;    width: fit-content;    left: 50%;    transform: translateX(-50%);    }/* 横向排布子菜单 */#nav .menus_items .menus_item .menus_item_child li {    display: inline-block;  }  /* 圆角隐藏 */  ul.menus_item_child {    overflow: hidden;    border-radius: 5px;  }  /* 调整空隙，确保不会天下武功唯快不破 */  #nav .menus_items .menus_item .menus_item_child {    margin-top: 0px !important;    left: -70px  }    .menus_item_child li:not(#sidebar-menus li){    float: left;    border-radius: 6px!important;    -webkit-border-radius: 6px!important;    -moz-border-radius: 6px!important;    -ms-border-radius: 6px!important;    -o-border-radius: 6px!important;}/* 左上角悬停主页 */#site-name::before{  opacity: 0;  background-color: #ed709b !important;  border-radius: 8px;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;  position:absolute;  top:0!important;  right:0!important;  width:100%;  height:100%;  content: "\f015";  box-shadow: 0 0 5px #ed709b;  font-family: "Font Awesome 6 Free";  text-align: center;  color:white;  line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/  font-size: 18px;/*根据个人喜好*/}#site-name:hover::before{  opacity: 1;  scale:1.03;}#site-name{  position: relative;  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/}/* 顶栏常驻 */.nav-fixed #nav{  transform: translateY(58px)!important;  -webkit-transform: translateY(58px)!important;  -moz-transform: translateY(58px)!important;  -ms-transform: translateY(58px)!important;  -o-transform: translateY(58px)!important;}#nav{  transition: none!important;  -webkit-transition: none!important;  -moz-transition: none!important;  -ms-transition: none!important;  -o-transition: none!important;}/* 去除动画 */#nav *::after{  background-color: transparent!important;}.site-page:hover,.site-page.group:hover{    width:100%;  height:100%;  border-radius: 4px;  background-color: #ffaaff !important;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: 'ZhuZiAYuanJWD';}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: 'iconfont' !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span{  color: #f2b94b;}.bangumi-info-item em{  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 , 首页侧栏卡片 */#recent-posts > .recent-post-item , /* 首页文章卡片 */#aside-content .card-widget , /*  首页侧栏卡片 */div#post ,  /* 文章页面正文背景 */div#page ,  /* 分页页面 */div#archive , /* 归档页面 */div#tag  ,  /* 标签页面 */div#category  /* 分类页面 */{  background: rgba(255, 255, 255, 0.9);  box-shadow: 1px 1px 15px #AE64B7;}/*GitHub开源圆角*/#card-info-btn {  border-radius: 7px;  overflow: hidden;}/*夜间模式伪类遮罩层透明*/[data-theme='dark'] #recent-posts > .recent-post-item {  background: #121212;}[data-theme='dark'] .card-widget {  background: #121212 !important;}[data-theme='dark'] div#post {  background: #121212 !important;}[data-theme='dark'] div#tag {  background: #121212 !important;}[data-theme='dark'] div#archive {  background: #121212 !important;}[data-theme='dark'] div#page {  background: #121212 !important;}[data-theme='dark'] div#category {  background: #121212 !important;}[data-theme='dark'] div#category {  background: transparent !important;}/* 非一图流删除 *//* 页脚透明 */#footer {  background: transparent !important;} /* 头图透明 */ /* #page-header {  background: transparent !important;}  *//* 滚动条渐变 */::-webkit-scrollbar {  width: 8px;  height: 8px;} ::-webkit-scrollbar-track {  background-color: #fff4f1;  border-radius: 2em;} ::-webkit-scrollbar-thumb {  background-color: #ffaaff;  background-image: -webkit-linear-gradient(    45deg,    rgba(255, 255, 255, 0.4) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, 0.4) 50%,    rgba(255, 255, 255, 0.4) 75%,    transparent 75%,    transparent  );  border-radius: 2em;} ::-webkit-scrollbar-corner {  background-color: transparent;} ::-moz-selection {  color: #fff;  background-color: #49b1f5;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #425aef;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--heo-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {-webkit-animation: ccc 1.6s linear infinite ;animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}@keyframes ccc {0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg)}to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn)}}#content-inner.layout h1::before {color: #ef50a8 ;margin-left: -1.55rem;font-size: 1.3rem;margin-top: -0.23rem;}#content-inner.layout h2::before {color: #fb7061 ;margin-left: -1.35rem;font-size: 1.1rem;margin-top: -0.12rem;}#content-inner.layout h3::before {color: #ffbf00 ;margin-left: -1.22rem;font-size: 0.95rem;margin-top: -0.09rem;}#content-inner.layout h4::before {color: #a9e000 ;margin-left: -1.05rem;font-size: 0.8rem;margin-top: -0.09rem;}#content-inner.layout h5::before {color: #57c850 ;margin-left: -0.9rem;font-size: 0.7rem;margin-top: 0.0rem;}#content-inner.layout h6::before {color: #5ec1e0 ;margin-left: -0.9rem;font-size: 0.66rem;margin-top: 0.0rem;}/* 背景渐变色 */.page{  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/color_hover.css"/>
+      <url>/css/color_hover.css</url>
+      
+        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
       
     </entry>
     
@@ -234,11 +212,11 @@
     
     
     <entry>
-      <title>相册</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
+      <title></title>
+      <link href="/css/runtime.css"/>
+      <url>/css/runtime.css</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[/* 底部runtime */div#runtime{    width:180px;    margin:auto;    color:#fff;    padding-inline:5px;    border-radius:10px;    background-color:rgba(0,0,0,.7)  }  #workboard{      font-size:12px  }  [data-theme=dark] div#runtime{    color:#28b4c8;    box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate  }#ghbdages .github-badge img{    height:20px  }  @-moz-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-webkit-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @-o-keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }  @keyframes flashlight{    from{box-shadow:0 0 5px #1478d2}    to{box-shadow:0 0 2px #1478d2}  }]]></content>
       
     </entry>
     
@@ -256,22 +234,22 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>相册</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
       
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>短文</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-rbfzqdcL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[<!-- ----规划中---- -->]]></content>
       
     </entry>
     
@@ -290,10 +268,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/timing.js"/>
-      <url>/js/timing.js</url>
+      <link href="/js/musicPlay.html"/>
+      <url>/js/musicPlay.html</url>
       
-        <content type="html"><![CDATA[// 公告栏运行时间// 判断是否有公告栏if(document.getElementsByClassName('card-widget card-announcement wow animate__zoomIn').length!==0){    let oSpan = document.getElementsByTagName("timing")[0];    let localhostTime//获取页面打开的时间    if(!sessionStorage.getItem("localhostTime"))    {        let data = new Date()        localhostTime = data.getTime();        sessionStorage.setItem("localhostTime", localhostTime)    }    else{        localhostTime = sessionStorage.getItem("localhostTime")    }    function tow(n) {        return n >= 0 && n < 10 ? '0' + n : '' + n;    }    setInterval(function () {        let goTime = new Date();//获取动态时间        let diffTime = goTime.getTime() - localhostTime;        var second = Math.floor(diffTime / 1000);//未来时间距离现在的秒数        var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；        second = second % 86400;//余数代表剩下的秒数；        var hour = Math.floor(second / 3600);//整数部分代表小时；        second %= 3600; //余数代表 剩下的秒数；        var minute = Math.floor(second / 60);        second %= 60;        var str = tow(hour) + '<span class="time">小时&nbsp</span>'            + tow(minute) + '<span class="time">分钟&nbsp</span>'            + tow(second) + '<span class="time">秒</span>';        oSpan.innerHTML = "您本次已浏览网页&nbsp" + str;    }, 1000)}]]></content>
+        <content type="html"><![CDATA[<html><head></head><body><div class="anniu netcloudmusic">    <i id="netcloudmusic_icon" class="ri-headphone-line ri-play-circle-line"></i>    <audio class="audio" src="https://music.163.com/song/media/outer/url?id=565966059.mp3" preload="auto"></audio> </div> </body></html>]]></content>
       
     </entry>
     
@@ -322,6 +300,50 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/timing.js"/>
+      <url>/js/timing.js</url>
+      
+        <content type="html"><![CDATA[// 公告栏运行时间// 判断是否有公告栏if(document.getElementsByClassName('card-widget card-announcement wow animate__zoomIn').length!==0){    let oSpan = document.getElementsByTagName("timing")[0];    let localhostTime//获取页面打开的时间    if(!sessionStorage.getItem("localhostTime"))    {        let data = new Date()        localhostTime = data.getTime();        sessionStorage.setItem("localhostTime", localhostTime)    }    else{        localhostTime = sessionStorage.getItem("localhostTime")    }    function tow(n) {        return n >= 0 && n < 10 ? '0' + n : '' + n;    }    setInterval(function () {        let goTime = new Date();//获取动态时间        let diffTime = goTime.getTime() - localhostTime;        var second = Math.floor(diffTime / 1000);//未来时间距离现在的秒数        var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；        second = second % 86400;//余数代表剩下的秒数；        var hour = Math.floor(second / 3600);//整数部分代表小时；        second %= 3600; //余数代表 剩下的秒数；        var minute = Math.floor(second / 60);        second %= 60;        var str = tow(hour) + '<span class="time">小时&nbsp</span>'            + tow(minute) + '<span class="time">分钟&nbsp</span>'            + tow(second) + '<span class="time">秒</span>';        oSpan.innerHTML = "您本次已浏览网页&nbsp" + str;    }, 1000)}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/tagsBarActive.js"/>
+      <url>/js/tagsBarActive.js</url>
+      
+        <content type="html"><![CDATA[// 分类页标签页检测tagsBarActive()categoriesBarActive()topCategoriesBarScroll()//标签条function tagsBarActive(){    var urlinfo = window.location.pathname;    urlinfo = decodeURIComponent(urlinfo)    // console.log(urlinfo);    //判断是否是首页    if (urlinfo == '/'){      if (document.querySelector('#tags-bar')){        document.getElementById('首页').classList.add("select")      }    }else {      // 验证是否是分类链接      var pattern = /\/tags\/.*?\//;      var patbool = pattern.test(urlinfo);      // console.log(patbool);      // 获取当前的标签      if (patbool) {        var valuegroup = urlinfo.split("/");        //console.log(valuegroup[2]);        // 获取当前分类        var nowTag = valuegroup[2];        if (document.querySelector('#category-bar')){          document.getElementById(nowTag).classList.add("select");        }      }    }   }//分类条function categoriesBarActive(){  var urlinfo = window.location.pathname;  urlinfo = decodeURIComponent(urlinfo)  //判断是否是首页  if (urlinfo == '/'){    if (document.querySelector('#category-bar')){      document.getElementById('首页').classList.add("select")    }  }else {    // 验证是否是分类链接    var pattern = /\/categories\/.*?\//;    var patbool = pattern.test(urlinfo);    // 获取当前的分类    if (patbool) {      var valuegroup = urlinfo.split("/");      // 获取当前分类      var nowCategorie = valuegroup[2];      if (document.querySelector('#category-bar')){        document.getElementById(nowCategorie).classList.add("select");      }    }  }  }//鼠标控制横向滚动function topCategoriesBarScroll(){  if (document.getElementById("category-bar-items")){    let xscroll = document.getElementById("category-bar-items");  xscroll.addEventListener("mousewheel", function (e) {    //计算鼠标滚轮滚动的距离    let v = -e.wheelDelta / 2;    xscroll.scrollLeft += v;    //阻止浏览器默认方法    e.preventDefault();}, false);  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-sYSTCuyX" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -344,11 +366,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/page/page_TabCat_list.css"/>
-      <url>/css/page/page_TabCat_list.css</url>
+      <title>动态</title>
+      <link href="/zone/index.html"/>
+      <url>/zone/index.html</url>
       
-        <content type="html"><![CDATA[/* 首页分类条展示 */#category-bar{    padding: 0.4rem 1rem 0.4rem 0.5rem;    background: var(--gale-cardBg);    border-radius: 12px;    display: flex;    white-space: nowrap;    overflow: hidden;    margin-bottom: 1rem;    border: var(--style-border);  }    @media screen and (max-width: 768px){    #category-bar{      border-radius: 0;    }  }    #category #category-bar{    padding: 0;    border: none;  }    #category a.category-bar-item.select a{    display: none;  }    .category-in-bar{    display: flex;    white-space: nowrap;  }    .category-in-bar-tips{    margin-right: 1rem;  }    .category-bar-items{    white-space: nowrap;    overflow-x: scroll;    display: flex;  }    .category-bar-items::-webkit-scrollbar{    display: none;  }    .category-bar-item a{    padding: 0.1rem 0.5rem;    margin: 0 0.25rem;    font-weight: bold;    border-radius: 12px;  }    .category-bar-item:hover a{    background: var(--gale-main);    color: var(--gale-white);  }    .category-bar-item.select a {    background: var(--gale-main);    color: var(--gale-white);    border-radius: 12px;  }    .category-bar-more{    margin-left: 1rem;    font-weight: bold;  }  .category-bar-more:hover{    color: var(--gale-main);  }  ]]></content>
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
       
     </entry>
     
@@ -356,10 +378,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/page/page_archive.css"/>
-      <url>/css/page/page_archive.css</url>
+      <link href="/css/page/category_list.css"/>
+      <url>/css/page/category_list.css</url>
       
-        <content type="html"><![CDATA[/* 归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
+        <content type="html"><![CDATA[/* 分类页 */#page .category-lists .category-list .category-list-item {position: relative;display: inline-block;padding: 0 1rem;width: 48%;font-weight: 700;margin: 0 .5% 2% .5%;border-radius: 8px;-webkit-box-shadow: rgb(50 50 50 / 30%) 50px 50px 50px 50px inset;box-shadow: rgb(50 50 50 / 30%) 50px 50px 50px 50px inset;}@media (max-width: 640px) {#page .category-lists .category-list .category-list-item {width: 95%;}}#page .category-lists .category-list .category-list-item::before {display: none;}#page .category-lists .category-list .category-list-item .category-list-link {color: var(--second);font-size: 1.5rem;margin-left: .4rem;}#page .category-lists .category-list .category-list-item .category-list-link::after {content: '';position: relative;width: 0;bottom: 0;display: block;height: 3px;border-radius: 3px;background: var(--second);}#page .category-lists .category-list .category-list-item .category-list-link:hover::after {width: 60%;left: 1%;-webkit-transition: all .6s;-moz-transition: all .6s;-o-transition: all .6s;-ms-transition: all .6s;transition: all .6s;}#page .category-lists .category-list .category-list-item .category-list-count {color: var(--second);font-size: 1.3rem;}#page .category-lists .category-list .category-list-item .category-list-count::before {content: '\f02d';padding-right: 15px;font-family: 'Font Awesome 6 Free';}#page .category-lists .category-list .category-list-item .category-list-count::after {display: none;}#page .category-lists .category-list li.category-list-item a.category-list-link::before {position: absolute;font-size: 4rem;line-height: 4rem;top: 1rem;right: 1rem;opacity: .7;box-shadow: 0 3px 8px 6px rgb(85 85 85 / 6%);transform: rotate(-15deg);-ms-transform: rotate(-15deg);-moz-transform: rotate(-15deg);-webkit-transform: rotate(-15deg);-o-transform: rotate(-15deg);-webkit-transition: all .6s;-moz-transition: all .6s;-o-transition: all .6s;-ms-transition: all .6s;transition: all .6s;}#page .category-lists .category-list li.category-list-item a.category-list-link:hover::before {opacity: .9;transform: rotate(0deg);-ms-transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);}#page .category-lists .category-list li.category-list-item:nth-child(1) {background: -webkit-linear-gradient(left,#364f6b,#3fc1c9);background: -moz-linear-gradient(left,#364f6b,#3fc1c9);background: -o-linear-gradient(left,#364f6b,#3fc1c9);background: -ms-linear-gradient(left,#364f6b,#3fc1c9);background: linear-gradient(to right,#364f6b,#3fc1c9);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(1) a.category-list-link::before {content: '🖥️';}#page .category-lists .category-list li.category-list-item:nth-child(2) {background: -webkit-linear-gradient(left,#ba52ed,#ff99fe);background: -moz-linear-gradient(left,#ba52ed,#ff99fe);background: -o-linear-gradient(left,#ba52ed,#ff99fe);background: -ms-linear-gradient(left,#ba52ed,#ff99fe);background: linear-gradient(to right,#ba52ed,#ff99fe);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(2) a.category-list-link::before {content: '📚';}#page .category-lists .category-list li.category-list-item:nth-child(3) {background: -webkit-linear-gradient(left,#6639a6,#3490de);background: -moz-linear-gradient(left,#6639a6,#3490de);background: -o-linear-gradient(left,#6639a6,#3490de);background: -ms-linear-gradient(left,#6639a6,#3490de);background: linear-gradient(to right,#6639a6,#3490de);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(3) a.category-list-link::before {content: '💬';}#page .category-lists .category-list li.category-list-item:nth-child(4) {background: -webkit-linear-gradient(right,#38ef7d,#11998e);background: -moz-linear-gradient(right,#38ef7d,#11998e);background: -o-linear-gradient(right,#38ef7d,#11998e);background: -ms-linear-gradient(right,#38ef7d,#11998e);background: linear-gradient(to left,#38ef7d,#11998e);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(4) a.category-list-link::before {content: '🌐';}#page .category-lists .category-list li.category-list-item:nth-child(5) {background: -webkit-linear-gradient(left,#b91d73,#f953c6);background: -moz-linear-gradient(left,#b91d73,#f953c6);background: -o-linear-gradient(left,#b91d73,#f953c6);background: -ms-linear-gradient(left,#b91d73,#f953c6);background: linear-gradient(to right,#b91d73,#f953c6);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(5) a.category-list-link::before {content: '📝';}#page .category-lists .category-list li.category-list-item:nth-child(6) {background: -webkit-linear-gradient(left,#f12711,#f5af19);background: -moz-linear-gradient(left,#f12711,#f5af19);background: -o-linear-gradient(left,#f12711,#f5af19);background: -ms-linear-gradient(left,#f12711,#f5af19);background: linear-gradient(to right,#f12711,#f5af19);  color: white;}#page .category-lists .category-list li.category-list-item:nth-child(6) a.category-list-link::before {content: '🎨';}]]></content>
       
     </entry>
     
@@ -378,6 +400,17 @@
     
     <entry>
       <title></title>
+      <link href="/css/page/page_archive.css"/>
+      <url>/css/page/page_archive.css</url>
+      
+        <content type="html"><![CDATA[/* 归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/page/page_tag.css"/>
       <url>/css/page/page_tag.css</url>
       
@@ -388,11 +421,11 @@
     
     
     <entry>
-      <title>动态</title>
-      <link href="/zone/index.html"/>
-      <url>/zone/index.html</url>
+      <title></title>
+      <link href="/css/page/page_TabCat_list.css"/>
+      <url>/css/page/page_TabCat_list.css</url>
       
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+        <content type="html"><![CDATA[/* 首页分类条展示 */#category-bar{    padding: 0.4rem 1rem 0.4rem 0.5rem;    background: var(--gale-cardBg);    border-radius: 12px;    display: flex;    white-space: nowrap;    overflow: hidden;    margin-bottom: 1rem;    border: var(--style-border);  }    @media screen and (max-width: 768px){    #category-bar{      border-radius: 0;    }  }    #category #category-bar{    padding: 0;    border: none;  }    #category a.category-bar-item.select a{    display: none;  }    .category-in-bar{    display: flex;    white-space: nowrap;  }    .category-in-bar-tips{    margin-right: 1rem;  }    .category-bar-items{    white-space: nowrap;    overflow-x: scroll;    display: flex;  }    .category-bar-items::-webkit-scrollbar{    display: none;  }    .category-bar-item a{    padding: 0.1rem 0.5rem;    margin: 0 0.25rem;    font-weight: bold;    border-radius: 12px;  }    .category-bar-item:hover a{    background: var(--gale-main);    color: var(--gale-white);  }    .category-bar-item.select a {    background: var(--gale-main);    color: var(--gale-white);    border-radius: 12px;  }    .category-bar-more{    margin-left: 1rem;    font-weight: bold;  }  .category-bar-more:hover{    color: var(--gale-main);  }  ]]></content>
       
     </entry>
     
@@ -410,17 +443,6 @@
     
     
     <entry>
-      <title>壁纸</title>
-      <link href="/gallery/wallpaper/index.html"/>
-      <url>/gallery/wallpaper/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>河山大好，出去走走</title>
       <link href="/gallery/marvel/index.html"/>
       <url>/gallery/marvel/index.html</url>
@@ -432,11 +454,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/tagsBarActive.js"/>
-      <url>/js/tagsBarActive.js</url>
+      <title>壁纸</title>
+      <link href="/gallery/wallpaper/index.html"/>
+      <url>/gallery/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[// 分类页标签页检测tagsBarActive()categoriesBarActive()topCategoriesBarScroll()//标签条function tagsBarActive(){    var urlinfo = window.location.pathname;    urlinfo = decodeURIComponent(urlinfo)    // console.log(urlinfo);    //判断是否是首页    if (urlinfo == '/'){      if (document.querySelector('#tags-bar')){        document.getElementById('首页').classList.add("select")      }    }else {      // 验证是否是分类链接      var pattern = /\/tags\/.*?\//;      var patbool = pattern.test(urlinfo);      // console.log(patbool);      // 获取当前的标签      if (patbool) {        var valuegroup = urlinfo.split("/");        //console.log(valuegroup[2]);        // 获取当前分类        var nowTag = valuegroup[2];        if (document.querySelector('#category-bar')){          document.getElementById(nowTag).classList.add("select");        }      }    }   }//分类条function categoriesBarActive(){  var urlinfo = window.location.pathname;  urlinfo = decodeURIComponent(urlinfo)  //判断是否是首页  if (urlinfo == '/'){    if (document.querySelector('#category-bar')){      document.getElementById('首页').classList.add("select")    }  }else {    // 验证是否是分类链接    var pattern = /\/categories\/.*?\//;    var patbool = pattern.test(urlinfo);    // 获取当前的分类    if (patbool) {      var valuegroup = urlinfo.split("/");      // 获取当前分类      var nowCategorie = valuegroup[2];      if (document.querySelector('#category-bar')){        document.getElementById(nowCategorie).classList.add("select");      }    }  }  }//鼠标控制横向滚动function topCategoriesBarScroll(){  if (document.getElementById("category-bar-items")){    let xscroll = document.getElementById("category-bar-items");  xscroll.addEventListener("mousewheel", function (e) {    //计算鼠标滚轮滚动的距离    let v = -e.wheelDelta / 2;    xscroll.scrollLeft += v;    //阻止浏览器默认方法    e.preventDefault();}, false);  }}]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
       
     </entry>
     

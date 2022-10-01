@@ -1,0 +1,1 @@
+const xhr=new XMLHttpRequest;xhr.open("get","https://api.vvhan.com/api/moyu?type=json"),xhr.send(),xhr.onreadystatechange=function(){if(4===xhr.readyState&&xhr.status>=200&&xhr.status<300){let t=JSON.parse(xhr.response).url;document.getElementById("no-lazy").src=t}};

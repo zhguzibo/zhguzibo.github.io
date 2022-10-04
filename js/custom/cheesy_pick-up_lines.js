@@ -1,1 +1,19 @@
-function cheesy_pick_up_lines(){let e="";fetch("https://api.vvhan.com/api/love").then((e=>e.text())).then((c=>{c.length<40?(e+="<p>"+c+"</p>",document.querySelector("#cheesy_pick-up_lines-container").innerHTML=e):cheesy_pick_up_lines()})).catch((function(e){console.log(e)}))}cheesy_pick_up_lines();
+function cheesy_pick_up_lines() {
+    let html = "";
+    fetch("https://api.vvhan.com/api/love")
+      .then((data) => data.text())
+      .then((data) => {
+        if(data.length<40){
+          html += "<p>" + data + "</p>";
+          document.querySelector("#cheesy_pick-up_lines-container").innerHTML =
+          html;
+        }
+        else cheesy_pick_up_lines()
+        
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+}
+  
+cheesy_pick_up_lines();

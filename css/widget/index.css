@@ -1,1 +1,20 @@
-#moyu-title{border-top-left-radius:10px;border-top-right-radius:10px;padding:calc(16px - 2px);font-weight:700;font-size:.875rem;padding-bottom:0;display:flex}#moyu-name{margin-left:8px;color:#d63130}.fa-fish{color:#d63130}#no-lazy{padding:8px 16px}
+/* 侧边栏摸鱼卡片 */
+#moyu-title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: calc(16px - 2px);
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding-bottom: 0;
+    display: flex;
+}
+#moyu-name{
+    margin-left: 8px;
+    color: #d63130;
+}
+.fa-fish{
+    color: #d63130;
+}
+#no-lazy{
+    padding: 8px 16px
+}

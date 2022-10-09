@@ -1,20 +1,329 @@
 /* 侧边栏摸鱼卡片 */
 #moyu-title {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: calc(16px - 2px);
-    font-weight: bold;
-    font-size: 0.875rem;
-    padding-bottom: 0;
-    display: flex;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: calc(16px - 2px);
+	font-weight: bold;
+	font-size: 0.875rem;
+	padding-bottom: 0;
+	display: flex;
 }
-#moyu-name{
-    margin-left: 8px;
-    color: #d63130;
+
+#moyu-name {
+	margin-left: 8px;
+	color: #d63130;
 }
-.fa-fish{
-    color: #d63130;
+
+.fa-fish {
+	color: #d63130;
 }
-#no-lazy{
-    padding: 8px 16px
+
+#no-lazy {
+	padding: 8px 16px
+}
+
+
+
+
+/* 侧边栏时钟 */
+/*The card-clocks*/
+#card-clock {
+	padding: 5px;
+	position: relative;
+}
+
+#card-clock:after {
+	content: '';
+	position: absolute;
+	border-radius: 100%;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 2px;
+	z-index: -1;
+}
+
+#card-clock .display {
+	text-align: center;
+	border-radius: 6px;
+	position: relative;
+	height: 100px;
+}
+
+
+
+#card-clock {
+	background-color: #f3f3f3;
+	color: #272e38;
+}
+
+#card-clock:after {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#card-clock .digits div span {
+	background-color: #272e38;
+	border-color: #272e38;
+}
+
+#card-clock .digits div.dots:before,
+#card-clock .digits div.dots:after {
+	background-color: #272e38;
+}
+#card-clock .display {
+	background-color: #dddddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset, 0 1px 1px #fafafa;
+}
+
+  
+
+  
+[data-theme=dark] #card-clock .digits div span{
+    background-color:#cacaca !important;
+    border-color:#cacaca !important; 
+}      
+[data-theme=dark] #card-clock .digits div.dots:before,
+[data-theme=dark] #card-clock .digits div.dots:after{
+    background-color:#cacaca !important;
+}
+[data-theme=dark] #card-clock .display{
+    background-color:#0f1620 !important;
+    box-shadow:0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #2d3642 !important;
+}
+[data-theme=dark] #clock .digits div.dots:before,
+#clock .digits div.dots:after{
+	background-color:#cacaca;
+}
+
+
+
+/*The Digits*/
+
+
+#card-clock .digits div {
+	text-align: left;
+	position: relative;
+	width: 14px;
+	height: 24px;
+    top: 46px;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+#card-clock .digits div span {
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#card-clock .digits div span:before,
+#card-clock .digits div span:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 3px solid transparent;
+}
+
+#card-clock .digits .d1 {height: 3px;width: 8px;top: 0;left: 4px;}
+#card-clock .digits .d1:before {border-width: 0 3px 3px 0;border-right-color: inherit;left: -3px;}
+#card-clock .digits .d1:after {border-width: 0 0 3px 3px;border-left-color: inherit;right: -3px;}
+
+#card-clock .digits .d2 {height: 3px;width: 8px;top: 14px;left: 4px;}
+#card-clock .digits .d2:before {border-width: 2px 3px 1px;border-right-color: inherit;left: -5px;}
+#card-clock .digits .d2:after {border-width: 2px 3px 1px;border-left-color: inherit;right: -5px;}
+
+#card-clock .digits .d3 {height: 3px;width: 8px;top: 30px;left: 4px;}
+#card-clock .digits .d3:before {border-width: 3px 3px 0 0;border-right-color: inherit;left: -3px;}
+#card-clock .digits .d3:after {border-width: 3px 0 0 3px;border-left-color: inherit;right: -3px;}
+
+#card-clock .digits .d4 {width: 3px;height: 8px;top: 4px;left: 0;}
+#card-clock .digits .d4:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}
+#card-clock .digits .d4:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}
+
+#card-clock .digits .d5 {width: 3px;height: 8px;top: 4px;right: -1px;}
+#card-clock .digits .d5:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}
+#card-clock .digits .d5:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}
+
+#card-clock .digits .d6 {width: 3px;height: 8px;top: 20px;left: 0;}
+#card-clock .digits .d6:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}
+#card-clock .digits .d6:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}
+
+#card-clock .digits .d7 {width: 3px;height: 8px;top: 20px;right: -1px;}
+#card-clock .digits .d7:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}
+#card-clock .digits .d7:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}
+
+
+/* 1 */
+
+#card-clock .digits div.one .d5,
+#card-clock .digits div.one .d7 {
+	opacity: 1;
+}
+
+/* 2 */
+
+#card-clock .digits div.two .d1,
+#card-clock .digits div.two .d5,
+#card-clock .digits div.two .d2,
+#card-clock .digits div.two .d6,
+#card-clock .digits div.two .d3 {
+	opacity: 1;
+}
+
+/* 3 */
+
+#card-clock .digits div.three .d1,
+#card-clock .digits div.three .d5,
+#card-clock .digits div.three .d2,
+#card-clock .digits div.three .d7,
+#card-clock .digits div.three .d3 {
+	opacity: 1;
+}
+
+/* 4 */
+
+#card-clock .digits div.four .d5,
+#card-clock .digits div.four .d2,
+#card-clock .digits div.four .d4,
+#card-clock .digits div.four .d7 {
+	opacity: 1;
+}
+
+/* 5 */
+
+#card-clock .digits div.five .d1,
+#card-clock .digits div.five .d2,
+#card-clock .digits div.five .d4,
+#card-clock .digits div.five .d3,
+#card-clock .digits div.five .d7 {
+	opacity: 1;
+}
+
+/* 6 */
+
+#card-clock .digits div.six .d1,
+#card-clock .digits div.six .d2,
+#card-clock .digits div.six .d4,
+#card-clock .digits div.six .d3,
+#card-clock .digits div.six .d6,
+#card-clock .digits div.six .d7 {
+	opacity: 1;
+}
+
+
+/* 7 */
+
+#card-clock .digits div.seven .d1,
+#card-clock .digits div.seven .d5,
+#card-clock .digits div.seven .d7 {
+	opacity: 1;
+}
+
+/* 8 */
+
+#card-clock .digits div.eight .d1,
+#card-clock .digits div.eight .d2,
+#card-clock .digits div.eight .d3,
+#card-clock .digits div.eight .d4,
+#card-clock .digits div.eight .d5,
+#card-clock .digits div.eight .d6,
+#card-clock .digits div.eight .d7 {
+	opacity: 1;
+}
+
+/* 9 */
+
+#card-clock .digits div.nine .d1,
+#card-clock .digits div.nine .d2,
+#card-clock .digits div.nine .d3,
+#card-clock .digits div.nine .d4,
+#card-clock .digits div.nine .d5,
+#card-clock .digits div.nine .d7 {
+	opacity: 1;
+}
+
+/* 0 */
+
+#card-clock .digits div.zero .d1,
+#card-clock .digits div.zero .d3,
+#card-clock .digits div.zero .d4,
+#card-clock .digits div.zero .d5,
+#card-clock .digits div.zero .d6,
+#card-clock .digits div.zero .d7 {
+	opacity: 1;
+}
+
+
+/* The dots */
+
+#card-clock .digits div.dots {
+	width: 5px;
+}
+
+#card-clock .digits div.dots:before,
+#card-clock .digits div.dots:after {
+	width: 3px;
+	height: 3px;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+
+#card-clock .digits div.dots:after {
+	top: 24px;
+}
+
+
+/*The Alarm*/
+
+
+#card-clock .alarm {
+	width: 16px;
+	height: 16px;
+	bottom: 20px;
+	position: absolute;
+	opacity: 0.2;
+}
+
+#card-clock .alarm.active {
+	opacity: 1;
+}
+
+
+/*Weekdays*/
+
+
+#card-clock .weekdays {
+	font-size: 8px;
+	position: absolute;
+	width: 100%;
+	top: 10px;
+	left: 0;
+	text-align: center;
+}
+
+
+#card-clock .weekdays span {
+	opacity: 0.2;
+	padding: 0 5px;
+}
+
+#card-clock .weekdays span.active {
+	opacity: 1;
+}
+
+
+/*-------------------------
+                  AM/PM
+              --------------------------*/
+
+
+#card-clock .ampm {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-size: 12px;
 }

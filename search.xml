@@ -174,6 +174,17 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>留言板</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
@@ -185,11 +196,11 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/color_hover.css"/>
+      <url>/css/color_hover.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
       
     </entry>
     
@@ -207,22 +218,11 @@
     
     
     <entry>
-      <title>相册</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
+      <title>短文</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/color_hover.css"/>
-      <url>/css/color_hover.css</url>
-      
-        <content type="html"><![CDATA[/* 右下角菜单配置颜色 */#rightside > div > button {    border-radius: 5px;    background-color: var(--gale-btnBg);  }    #rightside > div > button:hover{    border-radius: 5px;    background-color: var(--gale-btnBgHover);  }    /* 侧边follow配置颜色 */  a#card-info-btn {    background-color: var(--gale-btnBg) !important;  }    a#card-info-btn:hover {    background-color: var(--gale-btnBgHover) !important;  }  /* 底部字体颜色 */.copyright{  color: black !important;}[data-theme=dark] .copyright{  color: white !important;}#workboard{  color: black !important}[data-theme=dark] #workboard{  color: white !important;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -251,33 +251,11 @@
     
     
     <entry>
-      <title>短文</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/menu_center.css"/>
       <url>/css/menu_center.css</url>
       
         <content type="html"><![CDATA[/* 导航栏居中 */#nav .menus_items {    /* display: inline; 这个带不带都可以，本来就是inline */    position: absolute;    width: fit-content;    left: 50%;    transform: translateX(-50%);    }/* 横向排布子菜单 */#nav .menus_items .menus_item .menus_item_child li {    display: inline-block;  }  /* 圆角隐藏 */  ul.menus_item_child {    overflow: hidden;    border-radius: 5px;  }  /* 调整空隙，确保不会天下武功唯快不破 */  #nav .menus_items .menus_item .menus_item_child {    margin-top: 0px !important;    left: -70px  }    .menus_item_child li:not(#sidebar-menus li){    float: left;    border-radius: 6px!important;    -webkit-border-radius: 6px!important;    -moz-border-radius: 6px!important;    -ms-border-radius: 6px!important;    -o-border-radius: 6px!important;}/* 左上角悬停主页 */#site-name::before{  opacity: 0;  background-color: #ed709b !important;  border-radius: 8px;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;  position:absolute;  top:0!important;  right:0!important;  width:100%;  height:100%;  content: "\f015";  box-shadow: 0 0 5px #ed709b;  font-family: "Font Awesome 6 Free";  text-align: center;  color:white;  line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/  font-size: 18px;/*根据个人喜好*/}#site-name:hover::before{  opacity: 1;  scale:1.03;}#site-name{  position: relative;  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/}/* 顶栏常驻 */.nav-fixed #nav{  transform: translateY(58px)!important;  -webkit-transform: translateY(58px)!important;  -moz-transform: translateY(58px)!important;  -ms-transform: translateY(58px)!important;  -o-transform: translateY(58px)!important;}#nav{  transition: none!important;  -webkit-transition: none!important;  -moz-transition: none!important;  -ms-transition: none!important;  -o-transition: none!important;}/* 去除动画 */#nav *::after{  background-color: transparent!important;}.site-page:hover,.site-page.group:hover{    width:100%;  height:100%;  border-radius: 4px;  background-color: #ffaaff !important;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: .3s;  -webkit-transition: .3s;  -moz-transition: .3s;  -ms-transition: .3s;  -o-transition: .3s;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/sweetalert.css"/>
-      <url>/css/sweetalert.css</url>
-      
-        <content type="html"><![CDATA[.sweet-alert,.sweet-overlay{position:fixed;display:none}body.stop-scrolling{height:100%;overflow:hidden}.sweet-overlay{background-color:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";background-color:rgba(0,0,0,.4);left:0;right:0;top:0;bottom:0;z-index:10000}.sweet-alert{background-color:#fff;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;width:478px;padding:17px;border-radius:5px;text-align:center;left:50%;top:50%;margin-left:-256px;margin-top:-200px;overflow:hidden;z-index:99999}@media all and (max-width:540px){.sweet-alert{width:auto;margin-left:0;margin-right:0;left:15px;right:15px}}.sweet-alert h2{color:#575757;font-size:30px;text-align:center;font-weight:600;text-transform:none;position:relative;margin:25px 0;padding:0;line-height:40px;display:block}.sweet-alert p{color:#797979;font-size:16px;font-weight:300;position:relative;text-align:inherit;float:none;margin:0;padding:0;line-height:normal}.sweet-alert fieldset{border:none;position:relative}.sweet-alert .sa-error-container{background-color:#f1f1f1;margin-left:-17px;margin-right:-17px;overflow:hidden;padding:0 10px;max-height:0;webkit-transition:padding .15s,max-height .15s;transition:padding .15s,max-height .15s}.sweet-alert .sa-error-container.show{padding:10px 0;max-height:100px;webkit-transition:padding .2s,max-height .2s;transition:padding .25s,max-height .25s}.sweet-alert .sa-error-container .icon{display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#ea7d7d;color:#fff;line-height:24px;text-align:center;margin-right:3px}.sweet-alert .sa-error-container p{display:inline-block}.sweet-alert .sa-input-error{position:absolute;top:29px;right:26px;width:20px;height:20px;opacity:0;-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transition:all .1s;transition:all .1s}.sweet-alert .sa-input-error::after,.sweet-alert .sa-input-error::before{content:"";width:20px;height:6px;background-color:#f06e57;border-radius:3px;position:absolute;top:50%;margin-top:-4px;left:50%;margin-left:-9px}.sweet-alert .sa-input-error::before{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-input-error::after{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.sweet-alert .sa-input-error.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.sweet-alert input{width:100%;box-sizing:border-box;border-radius:3px;border:1px solid #d7d7d7;height:43px;margin-top:10px;margin-bottom:17px;font-size:18px;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);padding:0 12px;display:none;-webkit-transition:all .3s;transition:all .3s}.sweet-alert input:focus{outline:0;box-shadow:0 0 3px #c4e6f5;border:1px solid #b4dbed}.sweet-alert input:focus::-moz-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input:focus:-ms-input-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input:focus::-webkit-input-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input::-moz-placeholder{color:#bdbdbd}.sweet-alert input:-ms-input-placeholder{color:#bdbdbd}.sweet-alert input::-webkit-input-placeholder{color:#bdbdbd}.sweet-alert.show-input input{display:block}.sweet-alert .sa-confirm-button-container{display:inline-block;position:relative}.sweet-alert .la-ball-fall{position:absolute;left:50%;top:50%;margin-left:-27px;margin-top:4px;opacity:0;visibility:hidden}.sweet-alert button{background-color:#8CD4F5;color:#fff;border:none;box-shadow:none;font-size:17px;font-weight:500;-webkit-border-radius:4px;border-radius:5px;padding:10px 32px;margin:26px 5px 0;cursor:pointer}.sweet-alert button:focus{outline:0;box-shadow:0 0 2px rgba(128,179,235,.5),inset 0 0 0 1px rgba(0,0,0,.05)}.sweet-alert button:hover{background-color:#7ecff4}.sweet-alert button:active{background-color:#5dc2f1}.sweet-alert button.cancel{background-color:#C1C1C1}.sweet-alert button.cancel:hover{background-color:#b9b9b9}.sweet-alert button.cancel:active{background-color:#a8a8a8}.sweet-alert button.cancel:focus{box-shadow:rgba(197,205,211,.8) 0 0 2px,rgba(0,0,0,.0470588) 0 0 0 1px inset!important}.sweet-alert button[disabled]{opacity:.6;cursor:default}.sweet-alert button.confirm[disabled]{color:transparent}.sweet-alert button.confirm[disabled]~.la-ball-fall{opacity:1;visibility:visible;transition-delay:0s}.sweet-alert button::-moz-focus-inner{border:0}.sweet-alert[data-has-cancel-button=false] button{box-shadow:none!important}.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false]{padding-bottom:40px}.sweet-alert .sa-icon{width:80px;height:80px;border:4px solid gray;-webkit-border-radius:40px;border-radius:50%;margin:20px auto;padding:0;position:relative;box-sizing:content-box}.sweet-alert .sa-icon.sa-error{border-color:#F27474}.sweet-alert .sa-icon.sa-error .sa-x-mark{position:relative;display:block}.sweet-alert .sa-icon.sa-error .sa-line{position:absolute;height:5px;width:47px;background-color:#F27474;display:block;top:37px;border-radius:2px}.sweet-alert .sa-icon.sa-error .sa-line.sa-left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.sweet-alert .sa-icon.sa-error .sa-line.sa-right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}.sweet-alert .sa-icon.sa-warning{border-color:#F8BB86}.sweet-alert .sa-icon.sa-warning .sa-body{position:absolute;width:5px;height:47px;left:50%;top:10px;-webkit-border-radius:2px;border-radius:2px;margin-left:-2px;background-color:#F8BB86}.sweet-alert .sa-icon.sa-warning .sa-dot{position:absolute;width:7px;height:7px;-webkit-border-radius:50%;border-radius:50%;margin-left:-3px;left:50%;bottom:10px;background-color:#F8BB86}.sweet-alert .sa-icon.sa-info::after,.sweet-alert .sa-icon.sa-info::before{content:"";background-color:#C9DAE1;position:absolute}.sweet-alert .sa-icon.sa-info{border-color:#C9DAE1}.sweet-alert .sa-icon.sa-info::before{width:5px;height:29px;left:50%;bottom:17px;border-radius:2px;margin-left:-2px}.sweet-alert .sa-icon.sa-info::after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.sweet-alert .sa-icon.sa-success{border-color:#A5DC86}.sweet-alert .sa-icon.sa-success::after,.sweet-alert .sa-icon.sa-success::before{content:'';position:absolute;width:60px;height:120px;background:#fff}.sweet-alert .sa-icon.sa-success::before{-webkit-border-radius:120px 0 0 120px;border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.sweet-alert .sa-icon.sa-success::after{-webkit-border-radius:0 120px 120px 0;border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px}.sweet-alert .sa-icon.sa-success .sa-placeholder{width:80px;height:80px;border:4px solid rgba(165,220,134,.2);-webkit-border-radius:40px;border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.sweet-alert .sa-icon.sa-success .sa-fix{width:5px;height:90px;background-color:#fff;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-icon.sa-success .sa-line{height:5px;background-color:#A5DC86;display:block;border-radius:2px;position:absolute;z-index:2}.sweet-alert .sa-icon.sa-success .sa-line.sa-tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.sweet-alert .sa-icon.sa-success .sa-line.sa-long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-icon.sa-custom{background-size:contain;border-radius:0;border:none;background-position:center center;background-repeat:no-repeat}@-webkit-keyframes showSweetAlert{0%{transform:scale(.7);-webkit-transform:scale(.7)}45%{transform:scale(1.05);-webkit-transform:scale(1.05)}80%{transform:scale(.95);-webkit-transform:scale(.95)}100%{transform:scale(1);-webkit-transform:scale(1)}}@keyframes showSweetAlert{0%{transform:scale(.7);-webkit-transform:scale(.7)}45%{transform:scale(1.05);-webkit-transform:scale(1.05)}80%{transform:scale(.95);-webkit-transform:scale(.95)}100%{transform:scale(1);-webkit-transform:scale(1)}}@-webkit-keyframes hideSweetAlert{0%{transform:scale(1);-webkit-transform:scale(1)}100%{transform:scale(.5);-webkit-transform:scale(.5)}}@keyframes hideSweetAlert{0%{transform:scale(1);-webkit-transform:scale(1)}100%{transform:scale(.5);-webkit-transform:scale(.5)}}@-webkit-keyframes slideFromTop{0%{top:0}100%{top:50%}}@keyframes slideFromTop{0%{top:0}100%{top:50%}}@-webkit-keyframes slideToTop{0%{top:50%}100%{top:0}}@keyframes slideToTop{0%{top:50%}100%{top:0}}@-webkit-keyframes slideFromBottom{0%{top:70%}100%{top:50%}}@keyframes slideFromBottom{0%{top:70%}100%{top:50%}}@-webkit-keyframes slideToBottom{0%{top:50%}100%{top:70%}}@keyframes slideToBottom{0%{top:50%}100%{top:70%}}.showSweetAlert[data-animation=pop]{-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s}.showSweetAlert[data-animation=none]{-webkit-animation:none;animation:none}.showSweetAlert[data-animation=slide-from-top]{-webkit-animation:slideFromTop .3s;animation:slideFromTop .3s}.showSweetAlert[data-animation=slide-from-bottom]{-webkit-animation:slideFromBottom .3s;animation:slideFromBottom .3s}.hideSweetAlert[data-animation=pop]{-webkit-animation:hideSweetAlert .2s;animation:hideSweetAlert .2s}.hideSweetAlert[data-animation=none]{-webkit-animation:none;animation:none}.hideSweetAlert[data-animation=slide-from-top]{-webkit-animation:slideToTop .4s;animation:slideToTop .4s}.hideSweetAlert[data-animation=slide-from-bottom]{-webkit-animation:slideToBottom .3s;animation:slideToBottom .3s}@-webkit-keyframes animateSuccessTip{0%,54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}100%{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%,54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}100%{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%,65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}100%{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%,65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}100%{width:47px;right:8px;top:38px}}@-webkit-keyframes rotatePlaceholder{0%,5%{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}100%,12%{transform:rotate(-405deg);-webkit-transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%,5%{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}100%,12%{transform:rotate(-405deg);-webkit-transform:rotate(-405deg)}}.animateSuccessTip{-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.animateSuccessLong{-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}.sa-icon.sa-success.animate::after{-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}@-webkit-keyframes animateErrorIcon{0%{transform:rotateX(100deg);-webkit-transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);-webkit-transform:rotateX(0);opacity:1}}@keyframes animateErrorIcon{0%{transform:rotateX(100deg);-webkit-transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);-webkit-transform:rotateX(0);opacity:1}}.animateErrorIcon{-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}@-webkit-keyframes animateXMark{0%,50%{transform:scale(.4);-webkit-transform:scale(.4);margin-top:26px;opacity:0}80%{transform:scale(1.15);-webkit-transform:scale(1.15);margin-top:-6px}100%{transform:scale(1);-webkit-transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%,50%{transform:scale(.4);-webkit-transform:scale(.4);margin-top:26px;opacity:0}80%{transform:scale(1.15);-webkit-transform:scale(1.15);margin-top:-6px}100%{transform:scale(1);-webkit-transform:scale(1);margin-top:0;opacity:1}}.animateXMark{-webkit-animation:animateXMark .5s;animation:animateXMark .5s}@-webkit-keyframes pulseWarning{0%{border-color:#F8D486}100%{border-color:#F8BB86}}@keyframes pulseWarning{0%{border-color:#F8D486}100%{border-color:#F8BB86}}.pulseWarning{-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}@-webkit-keyframes pulseWarningIns{0%{background-color:#F8D486}100%{background-color:#F8BB86}}@keyframes pulseWarningIns{0%{background-color:#F8D486}100%{background-color:#F8BB86}}.pulseWarningIns{-webkit-animation:pulseWarningIns .75s infinite alternate;animation:pulseWarningIns .75s infinite alternate}@-webkit-keyframes rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.sweet-alert .sa-icon.sa-error .sa-line.sa-left{-ms-transform:rotate(45deg)\9}.sweet-alert .sa-icon.sa-error .sa-line.sa-right{-ms-transform:rotate(-45deg)\9}.sweet-alert .sa-icon.sa-success{border-color:transparent\9}.sweet-alert .sa-icon.sa-success .sa-line.sa-tip{-ms-transform:rotate(45deg)\9}.sweet-alert .sa-icon.sa-success .sa-line.sa-long{-ms-transform:rotate(-45deg)\9}/*! * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/) * Copyright 2015 Daniel Cardoso <@DanielCardoso> * Licensed under MIT */.la-ball-fall,.la-ball-fall>div{position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.la-ball-fall{display:block;font-size:0;color:#fff;width:54px;height:18px}.la-ball-fall.la-dark{color:#333}.la-ball-fall>div{display:inline-block;float:none;background-color:currentColor;border:0 solid currentColor;width:10px;height:10px;margin:4px;border-radius:100%;opacity:0;-webkit-animation:ball-fall 1s ease-in-out infinite;-moz-animation:ball-fall 1s ease-in-out infinite;-o-animation:ball-fall 1s ease-in-out infinite;animation:ball-fall 1s ease-in-out infinite}.la-ball-fall>div:nth-child(1){-webkit-animation-delay:-.2s;-moz-animation-delay:-.2s;-o-animation-delay:-.2s;animation-delay:-.2s}.la-ball-fall>div:nth-child(2){-webkit-animation-delay:-.1s;-moz-animation-delay:-.1s;-o-animation-delay:-.1s;animation-delay:-.1s}.la-ball-fall>div:nth-child(3){-webkit-animation-delay:0s;-moz-animation-delay:0s;-o-animation-delay:0s;animation-delay:0s}.la-ball-fall.la-sm{width:26px;height:8px}.la-ball-fall.la-sm>div{width:4px;height:4px;margin:2px}.la-ball-fall.la-2x{width:108px;height:36px}.la-ball-fall.la-2x>div{width:20px;height:20px;margin:8px}.la-ball-fall.la-3x{width:162px;height:54px}.la-ball-fall.la-3x>div{width:30px;height:30px;margin:12px}@-webkit-keyframes ball-fall{0%{opacity:0;-webkit-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(145%);transform:translateY(145%)}}@-moz-keyframes ball-fall{0%{opacity:0;-moz-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-moz-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-moz-transform:translateY(145%);transform:translateY(145%)}}@-o-keyframes ball-fall{0%{opacity:0;-o-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-o-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-o-transform:translateY(145%);transform:translateY(145%)}}@keyframes ball-fall{0%{opacity:0;-webkit-transform:translateY(-145%);-moz-transform:translateY(-145%);-o-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(145%);-moz-transform:translateY(145%);-o-transform:translateY(145%);transform:translateY(145%)}}]]></content>
       
     </entry>
     
@@ -306,11 +284,22 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title></title>
+      <link href="/css/sweetalert.css"/>
+      <url>/css/sweetalert.css</url>
       
-        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+        <content type="html"><![CDATA[.sweet-alert,.sweet-overlay{position:fixed;display:none}body.stop-scrolling{height:100%;overflow:hidden}.sweet-overlay{background-color:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";background-color:rgba(0,0,0,.4);left:0;right:0;top:0;bottom:0;z-index:10000}.sweet-alert{background-color:#fff;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;width:478px;padding:17px;border-radius:5px;text-align:center;left:50%;top:50%;margin-left:-256px;margin-top:-200px;overflow:hidden;z-index:99999}@media all and (max-width:540px){.sweet-alert{width:auto;margin-left:0;margin-right:0;left:15px;right:15px}}.sweet-alert h2{color:#575757;font-size:30px;text-align:center;font-weight:600;text-transform:none;position:relative;margin:25px 0;padding:0;line-height:40px;display:block}.sweet-alert p{color:#797979;font-size:16px;font-weight:300;position:relative;text-align:inherit;float:none;margin:0;padding:0;line-height:normal}.sweet-alert fieldset{border:none;position:relative}.sweet-alert .sa-error-container{background-color:#f1f1f1;margin-left:-17px;margin-right:-17px;overflow:hidden;padding:0 10px;max-height:0;webkit-transition:padding .15s,max-height .15s;transition:padding .15s,max-height .15s}.sweet-alert .sa-error-container.show{padding:10px 0;max-height:100px;webkit-transition:padding .2s,max-height .2s;transition:padding .25s,max-height .25s}.sweet-alert .sa-error-container .icon{display:inline-block;width:24px;height:24px;border-radius:50%;background-color:#ea7d7d;color:#fff;line-height:24px;text-align:center;margin-right:3px}.sweet-alert .sa-error-container p{display:inline-block}.sweet-alert .sa-input-error{position:absolute;top:29px;right:26px;width:20px;height:20px;opacity:0;-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transition:all .1s;transition:all .1s}.sweet-alert .sa-input-error::after,.sweet-alert .sa-input-error::before{content:"";width:20px;height:6px;background-color:#f06e57;border-radius:3px;position:absolute;top:50%;margin-top:-4px;left:50%;margin-left:-9px}.sweet-alert .sa-input-error::before{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-input-error::after{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.sweet-alert .sa-input-error.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.sweet-alert input{width:100%;box-sizing:border-box;border-radius:3px;border:1px solid #d7d7d7;height:43px;margin-top:10px;margin-bottom:17px;font-size:18px;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);padding:0 12px;display:none;-webkit-transition:all .3s;transition:all .3s}.sweet-alert input:focus{outline:0;box-shadow:0 0 3px #c4e6f5;border:1px solid #b4dbed}.sweet-alert input:focus::-moz-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input:focus:-ms-input-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input:focus::-webkit-input-placeholder{transition:opacity .3s 30ms ease;opacity:.5}.sweet-alert input::-moz-placeholder{color:#bdbdbd}.sweet-alert input:-ms-input-placeholder{color:#bdbdbd}.sweet-alert input::-webkit-input-placeholder{color:#bdbdbd}.sweet-alert.show-input input{display:block}.sweet-alert .sa-confirm-button-container{display:inline-block;position:relative}.sweet-alert .la-ball-fall{position:absolute;left:50%;top:50%;margin-left:-27px;margin-top:4px;opacity:0;visibility:hidden}.sweet-alert button{background-color:#8CD4F5;color:#fff;border:none;box-shadow:none;font-size:17px;font-weight:500;-webkit-border-radius:4px;border-radius:5px;padding:10px 32px;margin:26px 5px 0;cursor:pointer}.sweet-alert button:focus{outline:0;box-shadow:0 0 2px rgba(128,179,235,.5),inset 0 0 0 1px rgba(0,0,0,.05)}.sweet-alert button:hover{background-color:#7ecff4}.sweet-alert button:active{background-color:#5dc2f1}.sweet-alert button.cancel{background-color:#C1C1C1}.sweet-alert button.cancel:hover{background-color:#b9b9b9}.sweet-alert button.cancel:active{background-color:#a8a8a8}.sweet-alert button.cancel:focus{box-shadow:rgba(197,205,211,.8) 0 0 2px,rgba(0,0,0,.0470588) 0 0 0 1px inset!important}.sweet-alert button[disabled]{opacity:.6;cursor:default}.sweet-alert button.confirm[disabled]{color:transparent}.sweet-alert button.confirm[disabled]~.la-ball-fall{opacity:1;visibility:visible;transition-delay:0s}.sweet-alert button::-moz-focus-inner{border:0}.sweet-alert[data-has-cancel-button=false] button{box-shadow:none!important}.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false]{padding-bottom:40px}.sweet-alert .sa-icon{width:80px;height:80px;border:4px solid gray;-webkit-border-radius:40px;border-radius:50%;margin:20px auto;padding:0;position:relative;box-sizing:content-box}.sweet-alert .sa-icon.sa-error{border-color:#F27474}.sweet-alert .sa-icon.sa-error .sa-x-mark{position:relative;display:block}.sweet-alert .sa-icon.sa-error .sa-line{position:absolute;height:5px;width:47px;background-color:#F27474;display:block;top:37px;border-radius:2px}.sweet-alert .sa-icon.sa-error .sa-line.sa-left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.sweet-alert .sa-icon.sa-error .sa-line.sa-right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}.sweet-alert .sa-icon.sa-warning{border-color:#F8BB86}.sweet-alert .sa-icon.sa-warning .sa-body{position:absolute;width:5px;height:47px;left:50%;top:10px;-webkit-border-radius:2px;border-radius:2px;margin-left:-2px;background-color:#F8BB86}.sweet-alert .sa-icon.sa-warning .sa-dot{position:absolute;width:7px;height:7px;-webkit-border-radius:50%;border-radius:50%;margin-left:-3px;left:50%;bottom:10px;background-color:#F8BB86}.sweet-alert .sa-icon.sa-info::after,.sweet-alert .sa-icon.sa-info::before{content:"";background-color:#C9DAE1;position:absolute}.sweet-alert .sa-icon.sa-info{border-color:#C9DAE1}.sweet-alert .sa-icon.sa-info::before{width:5px;height:29px;left:50%;bottom:17px;border-radius:2px;margin-left:-2px}.sweet-alert .sa-icon.sa-info::after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.sweet-alert .sa-icon.sa-success{border-color:#A5DC86}.sweet-alert .sa-icon.sa-success::after,.sweet-alert .sa-icon.sa-success::before{content:'';position:absolute;width:60px;height:120px;background:#fff}.sweet-alert .sa-icon.sa-success::before{-webkit-border-radius:120px 0 0 120px;border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.sweet-alert .sa-icon.sa-success::after{-webkit-border-radius:0 120px 120px 0;border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px}.sweet-alert .sa-icon.sa-success .sa-placeholder{width:80px;height:80px;border:4px solid rgba(165,220,134,.2);-webkit-border-radius:40px;border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.sweet-alert .sa-icon.sa-success .sa-fix{width:5px;height:90px;background-color:#fff;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-icon.sa-success .sa-line{height:5px;background-color:#A5DC86;display:block;border-radius:2px;position:absolute;z-index:2}.sweet-alert .sa-icon.sa-success .sa-line.sa-tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.sweet-alert .sa-icon.sa-success .sa-line.sa-long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.sweet-alert .sa-icon.sa-custom{background-size:contain;border-radius:0;border:none;background-position:center center;background-repeat:no-repeat}@-webkit-keyframes showSweetAlert{0%{transform:scale(.7);-webkit-transform:scale(.7)}45%{transform:scale(1.05);-webkit-transform:scale(1.05)}80%{transform:scale(.95);-webkit-transform:scale(.95)}100%{transform:scale(1);-webkit-transform:scale(1)}}@keyframes showSweetAlert{0%{transform:scale(.7);-webkit-transform:scale(.7)}45%{transform:scale(1.05);-webkit-transform:scale(1.05)}80%{transform:scale(.95);-webkit-transform:scale(.95)}100%{transform:scale(1);-webkit-transform:scale(1)}}@-webkit-keyframes hideSweetAlert{0%{transform:scale(1);-webkit-transform:scale(1)}100%{transform:scale(.5);-webkit-transform:scale(.5)}}@keyframes hideSweetAlert{0%{transform:scale(1);-webkit-transform:scale(1)}100%{transform:scale(.5);-webkit-transform:scale(.5)}}@-webkit-keyframes slideFromTop{0%{top:0}100%{top:50%}}@keyframes slideFromTop{0%{top:0}100%{top:50%}}@-webkit-keyframes slideToTop{0%{top:50%}100%{top:0}}@keyframes slideToTop{0%{top:50%}100%{top:0}}@-webkit-keyframes slideFromBottom{0%{top:70%}100%{top:50%}}@keyframes slideFromBottom{0%{top:70%}100%{top:50%}}@-webkit-keyframes slideToBottom{0%{top:50%}100%{top:70%}}@keyframes slideToBottom{0%{top:50%}100%{top:70%}}.showSweetAlert[data-animation=pop]{-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s}.showSweetAlert[data-animation=none]{-webkit-animation:none;animation:none}.showSweetAlert[data-animation=slide-from-top]{-webkit-animation:slideFromTop .3s;animation:slideFromTop .3s}.showSweetAlert[data-animation=slide-from-bottom]{-webkit-animation:slideFromBottom .3s;animation:slideFromBottom .3s}.hideSweetAlert[data-animation=pop]{-webkit-animation:hideSweetAlert .2s;animation:hideSweetAlert .2s}.hideSweetAlert[data-animation=none]{-webkit-animation:none;animation:none}.hideSweetAlert[data-animation=slide-from-top]{-webkit-animation:slideToTop .4s;animation:slideToTop .4s}.hideSweetAlert[data-animation=slide-from-bottom]{-webkit-animation:slideToBottom .3s;animation:slideToBottom .3s}@-webkit-keyframes animateSuccessTip{0%,54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}100%{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%,54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}100%{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%,65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}100%{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%,65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}100%{width:47px;right:8px;top:38px}}@-webkit-keyframes rotatePlaceholder{0%,5%{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}100%,12%{transform:rotate(-405deg);-webkit-transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%,5%{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}100%,12%{transform:rotate(-405deg);-webkit-transform:rotate(-405deg)}}.animateSuccessTip{-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.animateSuccessLong{-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}.sa-icon.sa-success.animate::after{-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}@-webkit-keyframes animateErrorIcon{0%{transform:rotateX(100deg);-webkit-transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);-webkit-transform:rotateX(0);opacity:1}}@keyframes animateErrorIcon{0%{transform:rotateX(100deg);-webkit-transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);-webkit-transform:rotateX(0);opacity:1}}.animateErrorIcon{-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}@-webkit-keyframes animateXMark{0%,50%{transform:scale(.4);-webkit-transform:scale(.4);margin-top:26px;opacity:0}80%{transform:scale(1.15);-webkit-transform:scale(1.15);margin-top:-6px}100%{transform:scale(1);-webkit-transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%,50%{transform:scale(.4);-webkit-transform:scale(.4);margin-top:26px;opacity:0}80%{transform:scale(1.15);-webkit-transform:scale(1.15);margin-top:-6px}100%{transform:scale(1);-webkit-transform:scale(1);margin-top:0;opacity:1}}.animateXMark{-webkit-animation:animateXMark .5s;animation:animateXMark .5s}@-webkit-keyframes pulseWarning{0%{border-color:#F8D486}100%{border-color:#F8BB86}}@keyframes pulseWarning{0%{border-color:#F8D486}100%{border-color:#F8BB86}}.pulseWarning{-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}@-webkit-keyframes pulseWarningIns{0%{background-color:#F8D486}100%{background-color:#F8BB86}}@keyframes pulseWarningIns{0%{background-color:#F8D486}100%{background-color:#F8BB86}}.pulseWarningIns{-webkit-animation:pulseWarningIns .75s infinite alternate;animation:pulseWarningIns .75s infinite alternate}@-webkit-keyframes rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.sweet-alert .sa-icon.sa-error .sa-line.sa-left{-ms-transform:rotate(45deg)\9}.sweet-alert .sa-icon.sa-error .sa-line.sa-right{-ms-transform:rotate(-45deg)\9}.sweet-alert .sa-icon.sa-success{border-color:transparent\9}.sweet-alert .sa-icon.sa-success .sa-line.sa-tip{-ms-transform:rotate(45deg)\9}.sweet-alert .sa-icon.sa-success .sa-line.sa-long{-ms-transform:rotate(-45deg)\9}/*! * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/) * Copyright 2015 Daniel Cardoso <@DanielCardoso> * Licensed under MIT */.la-ball-fall,.la-ball-fall>div{position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.la-ball-fall{display:block;font-size:0;color:#fff;width:54px;height:18px}.la-ball-fall.la-dark{color:#333}.la-ball-fall>div{display:inline-block;float:none;background-color:currentColor;border:0 solid currentColor;width:10px;height:10px;margin:4px;border-radius:100%;opacity:0;-webkit-animation:ball-fall 1s ease-in-out infinite;-moz-animation:ball-fall 1s ease-in-out infinite;-o-animation:ball-fall 1s ease-in-out infinite;animation:ball-fall 1s ease-in-out infinite}.la-ball-fall>div:nth-child(1){-webkit-animation-delay:-.2s;-moz-animation-delay:-.2s;-o-animation-delay:-.2s;animation-delay:-.2s}.la-ball-fall>div:nth-child(2){-webkit-animation-delay:-.1s;-moz-animation-delay:-.1s;-o-animation-delay:-.1s;animation-delay:-.1s}.la-ball-fall>div:nth-child(3){-webkit-animation-delay:0s;-moz-animation-delay:0s;-o-animation-delay:0s;animation-delay:0s}.la-ball-fall.la-sm{width:26px;height:8px}.la-ball-fall.la-sm>div{width:4px;height:4px;margin:2px}.la-ball-fall.la-2x{width:108px;height:36px}.la-ball-fall.la-2x>div{width:20px;height:20px;margin:8px}.la-ball-fall.la-3x{width:162px;height:54px}.la-ball-fall.la-3x>div{width:30px;height:30px;margin:12px}@-webkit-keyframes ball-fall{0%{opacity:0;-webkit-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(145%);transform:translateY(145%)}}@-moz-keyframes ball-fall{0%{opacity:0;-moz-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-moz-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-moz-transform:translateY(145%);transform:translateY(145%)}}@-o-keyframes ball-fall{0%{opacity:0;-o-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-o-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-o-transform:translateY(145%);transform:translateY(145%)}}@keyframes ball-fall{0%{opacity:0;-webkit-transform:translateY(-145%);-moz-transform:translateY(-145%);-o-transform:translateY(-145%);transform:translateY(-145%)}10%,90%{opacity:.5}20%,80%{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(145%);-moz-transform:translateY(145%);-o-transform:translateY(145%);transform:translateY(145%)}}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/gallery/ohmygirl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -329,43 +318,10 @@
     
     <entry>
       <title></title>
-      <link href="/img/manifest.json"/>
-      <url>/img/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"gale","short_name":"gale","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/128.png","sizes":"128x128","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/moyu.js"/>
       <url>/js/moyu.js</url>
       
         <content type="html"><![CDATA[const xhr=new XMLHttpRequest()xhr.open('get','https://api.vvhan.com/api/moyu?type=json')xhr.send()xhr.onreadystatechange=function(){    if(xhr.readyState === 4){// 判断响应状态码    if(xhr.status >=200 && xhr.status <300){// 响应行            let img_url = JSON.parse(xhr.response).url            document.getElementById('no-lazy').src = img_url    }    else{    }    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/rightside.js"/>
-      <url>/js/rightside.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up"), // 获取按钮        down = document.querySelector("#go-down"); // 获取按钮        // document.getElementById('goup').innerText = result    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = down.style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = down.style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/console.js"/>
-      <url>/js/console.js</url>
-      
-        <content type="html"><![CDATA[// console.clear();  // 清屏console.log(`    ██████████    █████╗    ██╗       ██████████╗     ██║          ██   ██╗   ██║       ██════════╝      ██║         ██     ██╗  ██║       ██║             ██║ ██████╗███████████║ ██║       ██████████╗     ██║    ║██║██╔═══════██║██║       ██════════╝     ██╚════╝██║██║       ██║██║       ██║             ██████████║██║       ██║█████████╗██████████╗     ╚═════════╝╚═╝       ╚═╝╚════════╝╚═════════╝ `);]]></content>
       
     </entry>
     
@@ -384,10 +340,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/img/manifest.json"/>
+      <url>/img/manifest.json</url>
       
-        <content type="html"><![CDATA[// 底部本站运行时间var now=new Date;function createtime(){    var grt=new Date("09/16/2022 00:00:00");    now.setTime(now.getTime()+250);    var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);    var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);    var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";    currentTimeHtml=`    <span class='textTip'>  本站居然运行了 ${dnum} 天</span>    <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
+        <content type="html"><![CDATA[{"name":"gale","short_name":"gale","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/128.png","sizes":"128x128","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -395,10 +351,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/tagsBarActive.js"/>
-      <url>/js/tagsBarActive.js</url>
+      <link href="/js/rightside.js"/>
+      <url>/js/rightside.js</url>
       
-        <content type="html"><![CDATA[// // 分类页标签页检测// tagsBarActive()// categoriesBarActive()// topCategoriesBarScroll()// //标签条// function tagsBarActive(){//     var urlinfo = window.location.pathname;//     urlinfo = decodeURIComponent(urlinfo)//     // console.log(urlinfo);//     //判断是否是首页//     if (urlinfo == '/'){//       if (document.querySelector('#tags-bar')){//         document.getElementById('首页').classList.add("select")//       }//     }else {//       // 验证是否是分类链接//       var pattern = /\/tags\/.*?\//;//       var patbool = pattern.test(urlinfo);//       // console.log(patbool);//       // 获取当前的标签//       if (patbool) {//         var valuegroup = urlinfo.split("/");//         //console.log(valuegroup[2]);//         // 获取当前分类//         var nowTag = valuegroup[2];//         if (document.querySelector('#category-bar')){//           document.getElementById(nowTag).classList.add("select");//         }//       }//     } //   }// //分类条// function categoriesBarActive(){//   var urlinfo = window.location.pathname;//   urlinfo = decodeURIComponent(urlinfo)//   //判断是否是首页//   if (urlinfo == '/'){//     if (document.querySelector('#category-bar')){//       document.getElementById('首页').classList.add("select")//     }//   }else {//     // 验证是否是分类链接//     var pattern = /\/categories\/.*?\//;//     var patbool = pattern.test(urlinfo);//     // 获取当前的分类//     if (patbool) {//       var valuegroup = urlinfo.split("/");//       // 获取当前分类//       var nowCategorie = valuegroup[2];//       if (document.querySelector('#category-bar')){//         document.getElementById(nowCategorie).classList.add("select");//       }//     }//   }  // }// //鼠标控制横向滚动// function topCategoriesBarScroll(){//   if (document.getElementById("category-bar-items")){//     let xscroll = document.getElementById("category-bar-items");//   xscroll.addEventListener("mousewheel", function (e) {//     //计算鼠标滚轮滚动的距离//     let v = -e.wheelDelta / 2;//     xscroll.scrollLeft += v;//     //阻止浏览器默认方法//     e.preventDefault();// }, false);//   }// }function catalogActive () {  let $list = document.getElementById('catalog-list')  if ($list) {    // 鼠标滚轮滚动    $list.addEventListener('mousewheel', function (e) {      // 计算鼠标滚轮滚动的距离      $list.scrollLeft -= e.wheelDelta / 2      // 阻止浏览器默认方法      e.preventDefault()    }, false)    // 高亮当前页面对应的分类或标签    let $catalog = document.getElementById(decodeURIComponent(window.location.pathname))    // $catalog.classList.add('selected')    // 滚动当前页面对应的分类或标签到中部    $list.scrollLeft = ($catalog.offsetLeft - $list.offsetLeft) - ($list.offsetWidth - $catalog.offsetWidth) / 2  }}catalogActive ()]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up"), // 获取按钮        down = document.querySelector("#go-down"); // 获取按钮        // document.getElementById('goup').innerText = result    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = down.style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = down.style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -417,10 +373,43 @@
     
     <entry>
       <title></title>
+      <link href="/js/console.js"/>
+      <url>/js/console.js</url>
+      
+        <content type="html"><![CDATA[// console.clear();  // 清屏console.log(`    ██████████    █████╗    ██╗       ██████████╗     ██║          ██   ██╗   ██║       ██════════╝      ██║         ██     ██╗  ██║       ██║             ██║ ██████╗███████████║ ██║       ██████████╗     ██║    ║██║██╔═══════██║██║       ██════════╝     ██╚════╝██║██║       ██║██║       ██║             ██████████║██║       ██║█████████╗██████████╗     ╚═════════╝╚═╝       ╚═╝╚════════╝╚═════════╝ `);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/title.js"/>
       <url>/js/title.js</url>
       
         <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = 'w(ﾟДﾟ)w 不要走！再看看嘛！';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '♪(^∇^*)欢迎肥来！' + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/tagsBarActive.js"/>
+      <url>/js/tagsBarActive.js</url>
+      
+        <content type="html"><![CDATA[// // 分类页标签页检测// tagsBarActive()// categoriesBarActive()// topCategoriesBarScroll()// //标签条// function tagsBarActive(){//     var urlinfo = window.location.pathname;//     urlinfo = decodeURIComponent(urlinfo)//     // console.log(urlinfo);//     //判断是否是首页//     if (urlinfo == '/'){//       if (document.querySelector('#tags-bar')){//         document.getElementById('首页').classList.add("select")//       }//     }else {//       // 验证是否是分类链接//       var pattern = /\/tags\/.*?\//;//       var patbool = pattern.test(urlinfo);//       // console.log(patbool);//       // 获取当前的标签//       if (patbool) {//         var valuegroup = urlinfo.split("/");//         //console.log(valuegroup[2]);//         // 获取当前分类//         var nowTag = valuegroup[2];//         if (document.querySelector('#category-bar')){//           document.getElementById(nowTag).classList.add("select");//         }//       }//     } //   }// //分类条// function categoriesBarActive(){//   var urlinfo = window.location.pathname;//   urlinfo = decodeURIComponent(urlinfo)//   //判断是否是首页//   if (urlinfo == '/'){//     if (document.querySelector('#category-bar')){//       document.getElementById('首页').classList.add("select")//     }//   }else {//     // 验证是否是分类链接//     var pattern = /\/categories\/.*?\//;//     var patbool = pattern.test(urlinfo);//     // 获取当前的分类//     if (patbool) {//       var valuegroup = urlinfo.split("/");//       // 获取当前分类//       var nowCategorie = valuegroup[2];//       if (document.querySelector('#category-bar')){//         document.getElementById(nowCategorie).classList.add("select");//       }//     }//   }  // }// //鼠标控制横向滚动// function topCategoriesBarScroll(){//   if (document.getElementById("category-bar-items")){//     let xscroll = document.getElementById("category-bar-items");//   xscroll.addEventListener("mousewheel", function (e) {//     //计算鼠标滚轮滚动的距离//     let v = -e.wheelDelta / 2;//     xscroll.scrollLeft += v;//     //阻止浏览器默认方法//     e.preventDefault();// }, false);//   }// }function catalogActive () {  let $list = document.getElementById('catalog-list')  if ($list) {    // 鼠标滚轮滚动    $list.addEventListener('mousewheel', function (e) {      // 计算鼠标滚轮滚动的距离      $list.scrollLeft -= e.wheelDelta / 2      // 阻止浏览器默认方法      e.preventDefault()    }, false)    // 高亮当前页面对应的分类或标签    let $catalog = document.getElementById(decodeURIComponent(window.location.pathname))    // $catalog.classList.add('selected')    // 滚动当前页面对应的分类或标签到中部    $list.scrollLeft = ($catalog.offsetLeft - $list.offsetLeft) - ($list.offsetWidth - $catalog.offsetWidth) / 2  }}catalogActive ()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[// 底部本站运行时间var now=new Date;function createtime(){    var grt=new Date("09/16/2022 00:00:00");    now.setTime(now.getTime()+250);    var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);    var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);    var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";    currentTimeHtml=`    <span class='textTip'>  本站居然运行了 ${dnum} 天</span>    <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);]]></content>
       
     </entry>
     
@@ -438,44 +427,22 @@
     
     
     <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[<p>——规划中——</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-rsnbYCvU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>收藏</title>
-      <link href="/stars/index.html"/>
-      <url>/stars/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>公告栏</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="歌单-许嵩"><a href="#歌单-许嵩" class="headerlink" title="歌单===许嵩"></a>歌单===许嵩</h1>    <div id="aplayer-JWfucoEY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7640109680" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
@@ -493,11 +460,11 @@
     
     
     <entry>
-      <title>ohmygirl</title>
-      <link href="/gallery/ohmygirl/index.html"/>
-      <url>/gallery/ohmygirl/index.html</url>
+      <title></title>
+      <link href="/css/widget/index.css"/>
+      <url>/css/widget/index.css</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.netnet/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
+        <content type="html"><![CDATA[/* 侧边栏摸鱼卡片 */#moyu-title {border-top-left-radius: 10px;border-top-right-radius: 10px;padding: calc(16px - 2px);font-weight: bold;font-size: 0.875rem;padding-bottom: 0;display: flex;}#moyu-name {margin-left: 8px;color: #d63130;}.fa-fish {color: #d63130;}#no-lazy {padding: 8px 16px}/* 侧边栏时钟 *//*The card-clocks*/#card-clock {padding: 5px;position: relative;}#card-clock:after {content: '';position: absolute;border-radius: 100%;left: 50%;margin-left: -200px;bottom: 2px;z-index: -1;}#card-clock .display {text-align: center;border-radius: 6px;position: relative;height: 100px;}#card-clock {background-color: #f3f3f3;color: #272e38;}#card-clock:after {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);}#card-clock .digits div span {background-color: #272e38;border-color: #272e38;}#card-clock .digits div.dots:before,#card-clock .digits div.dots:after {background-color: #272e38;}#card-clock .display {background-color: #dddddd;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset, 0 1px 1px #fafafa;}    [data-theme=dark] #card-clock .digits div span{    background-color:#cacaca !important;    border-color:#cacaca !important; }      [data-theme=dark] #card-clock .digits div.dots:before,[data-theme=dark] #card-clock .digits div.dots:after{    background-color:#cacaca !important;}[data-theme=dark] #card-clock .display{    background-color:#0f1620 !important;    box-shadow:0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #2d3642 !important;}[data-theme=dark] #clock .digits div.dots:before,#clock .digits div.dots:after{background-color:#cacaca;}/*The Digits*/#card-clock .digits div {text-align: left;position: relative;width: 14px;height: 24px;    top: 46px;display: inline-block;margin: 0 4px;}#card-clock .digits div span {opacity: 0;position: absolute;-webkit-transition: 0.25s;-moz-transition: 0.25s;transition: 0.25s;}#card-clock .digits div span:before,#card-clock .digits div span:after {content: '';position: absolute;width: 0;height: 0;border: 3px solid transparent;}#card-clock .digits .d1 {height: 3px;width: 8px;top: 0;left: 4px;}#card-clock .digits .d1:before {border-width: 0 3px 3px 0;border-right-color: inherit;left: -3px;}#card-clock .digits .d1:after {border-width: 0 0 3px 3px;border-left-color: inherit;right: -3px;}#card-clock .digits .d2 {height: 3px;width: 8px;top: 14px;left: 4px;}#card-clock .digits .d2:before {border-width: 2px 3px 1px;border-right-color: inherit;left: -5px;}#card-clock .digits .d2:after {border-width: 2px 3px 1px;border-left-color: inherit;right: -5px;}#card-clock .digits .d3 {height: 3px;width: 8px;top: 30px;left: 4px;}#card-clock .digits .d3:before {border-width: 3px 3px 0 0;border-right-color: inherit;left: -3px;}#card-clock .digits .d3:after {border-width: 3px 0 0 3px;border-left-color: inherit;right: -3px;}#card-clock .digits .d4 {width: 3px;height: 8px;top: 4px;left: 0;}#card-clock .digits .d4:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d4:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}#card-clock .digits .d5 {width: 3px;height: 8px;top: 4px;right: -1px;}#card-clock .digits .d5:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d5:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}#card-clock .digits .d6 {width: 3px;height: 8px;top: 20px;left: 0;}#card-clock .digits .d6:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d6:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}#card-clock .digits .d7 {width: 3px;height: 8px;top: 20px;right: -1px;}#card-clock .digits .d7:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d7:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}/* 1 */#card-clock .digits div.one .d5,#card-clock .digits div.one .d7 {opacity: 1;}/* 2 */#card-clock .digits div.two .d1,#card-clock .digits div.two .d5,#card-clock .digits div.two .d2,#card-clock .digits div.two .d6,#card-clock .digits div.two .d3 {opacity: 1;}/* 3 */#card-clock .digits div.three .d1,#card-clock .digits div.three .d5,#card-clock .digits div.three .d2,#card-clock .digits div.three .d7,#card-clock .digits div.three .d3 {opacity: 1;}/* 4 */#card-clock .digits div.four .d5,#card-clock .digits div.four .d2,#card-clock .digits div.four .d4,#card-clock .digits div.four .d7 {opacity: 1;}/* 5 */#card-clock .digits div.five .d1,#card-clock .digits div.five .d2,#card-clock .digits div.five .d4,#card-clock .digits div.five .d3,#card-clock .digits div.five .d7 {opacity: 1;}/* 6 */#card-clock .digits div.six .d1,#card-clock .digits div.six .d2,#card-clock .digits div.six .d4,#card-clock .digits div.six .d3,#card-clock .digits div.six .d6,#card-clock .digits div.six .d7 {opacity: 1;}/* 7 */#card-clock .digits div.seven .d1,#card-clock .digits div.seven .d5,#card-clock .digits div.seven .d7 {opacity: 1;}/* 8 */#card-clock .digits div.eight .d1,#card-clock .digits div.eight .d2,#card-clock .digits div.eight .d3,#card-clock .digits div.eight .d4,#card-clock .digits div.eight .d5,#card-clock .digits div.eight .d6,#card-clock .digits div.eight .d7 {opacity: 1;}/* 9 */#card-clock .digits div.nine .d1,#card-clock .digits div.nine .d2,#card-clock .digits div.nine .d3,#card-clock .digits div.nine .d4,#card-clock .digits div.nine .d5,#card-clock .digits div.nine .d7 {opacity: 1;}/* 0 */#card-clock .digits div.zero .d1,#card-clock .digits div.zero .d3,#card-clock .digits div.zero .d4,#card-clock .digits div.zero .d5,#card-clock .digits div.zero .d6,#card-clock .digits div.zero .d7 {opacity: 1;}/* The dots */#card-clock .digits div.dots {width: 5px;}#card-clock .digits div.dots:before,#card-clock .digits div.dots:after {width: 3px;height: 3px;content: '';position: absolute;left: 0;top: 7px;}#card-clock .digits div.dots:after {top: 24px;}/*The Alarm*/#card-clock .alarm {width: 16px;height: 16px;bottom: 20px;position: absolute;opacity: 0.2;}#card-clock .alarm.active {opacity: 1;}/*Weekdays*/#card-clock .weekdays {font-size: 8px;position: absolute;width: 100%;top: 10px;left: 0;text-align: center;}#card-clock .weekdays span {opacity: 0.2;padding: 0 5px;}#card-clock .weekdays span.active {opacity: 1;}/*-------------------------                  AM/PM              --------------------------*/#card-clock .ampm {position: absolute;bottom: 5px;right: 5px;font-size: 12px;}]]></content>
       
     </entry>
     
@@ -507,17 +474,6 @@
       <title>河山大好，出去走走</title>
       <link href="/gallery/marvel/index.html"/>
       <url>/gallery/marvel/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>壁纸</title>
-      <link href="/gallery/wallpaper/index.html"/>
-      <url>/gallery/wallpaper/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
       
@@ -537,11 +493,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/widget/index.css"/>
-      <url>/css/widget/index.css</url>
+      <title>收藏</title>
+      <link href="/stars/index.html"/>
+      <url>/stars/index.html</url>
       
-        <content type="html"><![CDATA[/* 侧边栏摸鱼卡片 */#moyu-title {border-top-left-radius: 10px;border-top-right-radius: 10px;padding: calc(16px - 2px);font-weight: bold;font-size: 0.875rem;padding-bottom: 0;display: flex;}#moyu-name {margin-left: 8px;color: #d63130;}.fa-fish {color: #d63130;}#no-lazy {padding: 8px 16px}/* 侧边栏时钟 *//*The card-clocks*/#card-clock {padding: 5px;position: relative;}#card-clock:after {content: '';position: absolute;border-radius: 100%;left: 50%;margin-left: -200px;bottom: 2px;z-index: -1;}#card-clock .display {text-align: center;border-radius: 6px;position: relative;height: 100px;}#card-clock {background-color: #f3f3f3;color: #272e38;}#card-clock:after {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);}#card-clock .digits div span {background-color: #272e38;border-color: #272e38;}#card-clock .digits div.dots:before,#card-clock .digits div.dots:after {background-color: #272e38;}#card-clock .display {background-color: #dddddd;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset, 0 1px 1px #fafafa;}    [data-theme=dark] #card-clock .digits div span{    background-color:#cacaca !important;    border-color:#cacaca !important; }      [data-theme=dark] #card-clock .digits div.dots:before,[data-theme=dark] #card-clock .digits div.dots:after{    background-color:#cacaca !important;}[data-theme=dark] #card-clock .display{    background-color:#0f1620 !important;    box-shadow:0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #2d3642 !important;}[data-theme=dark] #clock .digits div.dots:before,#clock .digits div.dots:after{background-color:#cacaca;}/*The Digits*/#card-clock .digits div {text-align: left;position: relative;width: 14px;height: 24px;    top: 46px;display: inline-block;margin: 0 4px;}#card-clock .digits div span {opacity: 0;position: absolute;-webkit-transition: 0.25s;-moz-transition: 0.25s;transition: 0.25s;}#card-clock .digits div span:before,#card-clock .digits div span:after {content: '';position: absolute;width: 0;height: 0;border: 3px solid transparent;}#card-clock .digits .d1 {height: 3px;width: 8px;top: 0;left: 4px;}#card-clock .digits .d1:before {border-width: 0 3px 3px 0;border-right-color: inherit;left: -3px;}#card-clock .digits .d1:after {border-width: 0 0 3px 3px;border-left-color: inherit;right: -3px;}#card-clock .digits .d2 {height: 3px;width: 8px;top: 14px;left: 4px;}#card-clock .digits .d2:before {border-width: 2px 3px 1px;border-right-color: inherit;left: -5px;}#card-clock .digits .d2:after {border-width: 2px 3px 1px;border-left-color: inherit;right: -5px;}#card-clock .digits .d3 {height: 3px;width: 8px;top: 30px;left: 4px;}#card-clock .digits .d3:before {border-width: 3px 3px 0 0;border-right-color: inherit;left: -3px;}#card-clock .digits .d3:after {border-width: 3px 0 0 3px;border-left-color: inherit;right: -3px;}#card-clock .digits .d4 {width: 3px;height: 8px;top: 4px;left: 0;}#card-clock .digits .d4:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d4:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}#card-clock .digits .d5 {width: 3px;height: 8px;top: 4px;right: -1px;}#card-clock .digits .d5:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d5:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}#card-clock .digits .d6 {width: 3px;height: 8px;top: 20px;left: 0;}#card-clock .digits .d6:before {border-width: 0 3px 3px 0;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d6:after {border-width: 0 0 3px 3px;border-left-color: inherit;bottom: -3px;}#card-clock .digits .d7 {width: 3px;height: 8px;top: 20px;right: -1px;}#card-clock .digits .d7:before {border-width: 0 0 3px 3px;border-bottom-color: inherit;top: -3px;}#card-clock .digits .d7:after {border-width: 3px 0 0 3px;border-top-color: inherit;bottom: -3px;}/* 1 */#card-clock .digits div.one .d5,#card-clock .digits div.one .d7 {opacity: 1;}/* 2 */#card-clock .digits div.two .d1,#card-clock .digits div.two .d5,#card-clock .digits div.two .d2,#card-clock .digits div.two .d6,#card-clock .digits div.two .d3 {opacity: 1;}/* 3 */#card-clock .digits div.three .d1,#card-clock .digits div.three .d5,#card-clock .digits div.three .d2,#card-clock .digits div.three .d7,#card-clock .digits div.three .d3 {opacity: 1;}/* 4 */#card-clock .digits div.four .d5,#card-clock .digits div.four .d2,#card-clock .digits div.four .d4,#card-clock .digits div.four .d7 {opacity: 1;}/* 5 */#card-clock .digits div.five .d1,#card-clock .digits div.five .d2,#card-clock .digits div.five .d4,#card-clock .digits div.five .d3,#card-clock .digits div.five .d7 {opacity: 1;}/* 6 */#card-clock .digits div.six .d1,#card-clock .digits div.six .d2,#card-clock .digits div.six .d4,#card-clock .digits div.six .d3,#card-clock .digits div.six .d6,#card-clock .digits div.six .d7 {opacity: 1;}/* 7 */#card-clock .digits div.seven .d1,#card-clock .digits div.seven .d5,#card-clock .digits div.seven .d7 {opacity: 1;}/* 8 */#card-clock .digits div.eight .d1,#card-clock .digits div.eight .d2,#card-clock .digits div.eight .d3,#card-clock .digits div.eight .d4,#card-clock .digits div.eight .d5,#card-clock .digits div.eight .d6,#card-clock .digits div.eight .d7 {opacity: 1;}/* 9 */#card-clock .digits div.nine .d1,#card-clock .digits div.nine .d2,#card-clock .digits div.nine .d3,#card-clock .digits div.nine .d4,#card-clock .digits div.nine .d5,#card-clock .digits div.nine .d7 {opacity: 1;}/* 0 */#card-clock .digits div.zero .d1,#card-clock .digits div.zero .d3,#card-clock .digits div.zero .d4,#card-clock .digits div.zero .d5,#card-clock .digits div.zero .d6,#card-clock .digits div.zero .d7 {opacity: 1;}/* The dots */#card-clock .digits div.dots {width: 5px;}#card-clock .digits div.dots:before,#card-clock .digits div.dots:after {width: 3px;height: 3px;content: '';position: absolute;left: 0;top: 7px;}#card-clock .digits div.dots:after {top: 24px;}/*The Alarm*/#card-clock .alarm {width: 16px;height: 16px;bottom: 20px;position: absolute;opacity: 0.2;}#card-clock .alarm.active {opacity: 1;}/*Weekdays*/#card-clock .weekdays {font-size: 8px;position: absolute;width: 100%;top: 10px;left: 0;text-align: center;}#card-clock .weekdays span {opacity: 0.2;padding: 0 5px;}#card-clock .weekdays span.active {opacity: 1;}/*-------------------------                  AM/PM              --------------------------*/#card-clock .ampm {position: absolute;bottom: 5px;right: 5px;font-size: 12px;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -560,32 +516,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/page/page_archive.css"/>
-      <url>/css/page/page_archive.css</url>
-      
-        <content type="html"><![CDATA[/* 主页归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/page/page_eassy.css"/>
       <url>/css/page/page_eassy.css</url>
       
         <content type="html"><![CDATA[/* 短文页面 */.title-and-tips {    display: flex;    margin-top: 1rem;    align-items: center;  }  .page-title{    line-height: 1;    margin: 8px 0 20px;    position: relative;    margin: 20px 0 14px;    font-weight: 700;  }  .page-tips{    background: var(--gale-main);    color: #fff;    margin-bottom: auto;    border-radius: 8px;    padding: 2px 6px;    font-size: .5rem;    margin-left: 8px;  }    #bber {    margin-top: 1rem;    width: 100%;  }  #bber .timeline #waterfall.show {    opacity: 1;  }  #bber .timeline #waterfall {    transition: .3s;  }  #bber ul.list {    display: flex;    flex-direction: row;    flex-wrap: wrap;    justify-content: space-between;  }  li, ul {    list-style: none;    display: block;    margin: 0;    padding: 0;  }    ul {    margin-block-start: 1em;    margin-block-end: 1em;    margin-inline-start: 0px;    margin-inline-end: 0px;    padding-inline-start: 40px;  }  #bber .timeline ul li.item {    position: relative;    width: 32%;    border: var(--style-border);    border-radius: 12px;    padding: 1rem;    padding-bottom: 0.5rem;    transition: .3s;    display: flex;    flex-direction: column;    flex-wrap: nowrap;    justify-content: space-between;    align-items: flex-start;    background: var(--gale-cardBg);    box-shadow: #000;    margin-top: 10px;  }    #bber .timeline ul li.item:hover {    border-color: var(--gale-main);  }    #bber div.bber-content {    display: flex;    flex-direction: initial;    flex-wrap: wrap;    border-radius: 12px;    width: 100%;    height: 100%;  }  #bber .bber-bottom {    display: flex;    justify-content: space-between;    width: 100%;  }  #bber-tips {    font-size: 14px;    display: flex;    justify-content: center;    margin-top: 1rem;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/page/page_stars.css"/>
-      <url>/css/page/page_stars.css</url>
-      
-        <content type="html"><![CDATA[/* 收藏页面 */.links-content {    margin-top:1rem;  }    .link-navigation::after {    content:" ";    display:block;    clear:both  }    .card {    position:relative;    width:25%;    padding:0;    border-radius:10px;    transition-duration:.3s;    margin-bottom:1rem;    margin-left:16px;    display:block;    float:left;    box-shadow:0 2px 6px 0 rgba(0,0,0,.12);    background: transparent;    overflow:hidden;  }    .card:hover:before, .card:focus:before, .card:active:before {    -webkit-transform: scale(1);    transform: scale(1);  }    .card:before {    content: "";    position: absolute;    z-index: -1;    top: 0;    left: 0;    right: 0;    bottom: 0;    background-image: linear-gradient(to right, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);    -webkit-transform: scale(0);    transform: scale(0);    -webkit-transition-property: transform;    transition-property: transform;    -webkit-transition-duration: 0.15s;    transition-duration: all 0.15s;    -webkit-transition-timing-function: ease-out;    transition-timing-function: ease-out;  }    .card:hover,.card:hover > .card-header a,.card:hover > .card-content a{      transform:scale(1);  }    @media(max-width:567px) {    .card{        margin-left:16px;        width:calc((100% - 16px)/2)    }    .card:nth-child(2n+1) {        margin-left:0    }    .card:not(:nth-child(2n+1)) {        margin-left:16px    }  }    @media(min-width:567px) {    .card {      margin-left:16px;      width:calc((100% - 32px)/3)    }    .card:nth-child(3n+1) {      margin-left:0    }    .card:not(:nth-child(3n+1)) {      margin-left:16px    }  }    @media(min-width:768px) {    .card {      margin-left:16px;      width:calc((100% - 48px)/4)    }    .card:nth-child(4n+1) {      margin-left:0    }    .card:not(:nth-child(4n+1)) {      margin-left:16px    }  }    .posts-expand .post-body img {    margin:0;    padding:0;    border:0  }    .card .card-header {    display:block;    text-align:center;    padding:.25rem .25rem;    font-weight:500;    color:#222222;    white-space:nowrap;  }    .card .card-header a {    font-style:normal;    color:#222222;    font-weight:700;    text-decoration:none;    border:0;    overflow:hidden  }    .card .card-header a:hover {    color:#222222;    text-decoration:none;    border:0  }    .card .card-content {    display:block;    text-align:center;    padding: 0 .25rem .25rem .25rem;    font-weight:500;    font-size: smaller;    color:#222222;    white-space:nowrap;  }  .card .card-content div {    overflow:hidden  }  .card .card-content a {    font-style:normal;    color:#222222;    font-weight:500;    text-decoration:none;    border:0;    overflow:hidden  }  ]]></content>
       
     </entry>
     
@@ -604,10 +538,43 @@
     
     <entry>
       <title></title>
+      <link href="/css/page/page_archive.css"/>
+      <url>/css/page/page_archive.css</url>
+      
+        <content type="html"><![CDATA[/* 主页归档 */span.card-archive-list-count {    width: auto;    text-align: left;    font-size: 1.5rem;    line-height: 0.9;    font-weight: 700;  }  .card-archive-list-count-group {    display: flex;    flex-direction: row;    align-items: baseline;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:last-child {    width: fit-content;    margin-left: 4px;  }  span.card-archive-list-count {      width: auto;      text-align: left;      font-size: 1.1rem;      line-height: .9;      font-weight: 700;  }  .card-archive-list-date {    font-size: 14px;    opacity: 0.6;  }  li.card-archive-list-item {    width: 100%;    flex: 0 0 48%;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {    background: var(--gale-cartTextBgHover);    color: var(--gale-white) !important;    box-shadow:  #a29eea;    border-radius: 8px;    padding-left: 0.5rem;    padding-right: 0.5rem;  }  @media screen and (min-width: 1300px) {    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {      transform: scale(1.03);    }    #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active,    #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active {      transform: scale(0.97);    }  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a {    border-radius: 8px;    margin: 4px 0;    display: flex;    flex-direction: column;    align-content: space-between;    border: #000;  }  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child,  #aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child {    width: auto;    flex: inherit;  }  #aside-content .card-archives ul.card-archive-list,  #aside-content .card-categories ul.card-category-list {    display: flex;    flex-direction: row;    justify-content: space-between;    flex-wrap: wrap;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/page/page_stars.css"/>
+      <url>/css/page/page_stars.css</url>
+      
+        <content type="html"><![CDATA[/* 收藏页面 */.links-content {    margin-top:1rem;  }    .link-navigation::after {    content:" ";    display:block;    clear:both  }    .card {    position:relative;    width:25%;    padding:0;    border-radius:10px;    transition-duration:.3s;    margin-bottom:1rem;    margin-left:16px;    display:block;    float:left;    box-shadow:0 2px 6px 0 rgba(0,0,0,.12);    background: transparent;    overflow:hidden;  }    .card:hover:before, .card:focus:before, .card:active:before {    -webkit-transform: scale(1);    transform: scale(1);  }    .card:before {    content: "";    position: absolute;    z-index: -1;    top: 0;    left: 0;    right: 0;    bottom: 0;    background-image: linear-gradient(to right, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);    -webkit-transform: scale(0);    transform: scale(0);    -webkit-transition-property: transform;    transition-property: transform;    -webkit-transition-duration: 0.15s;    transition-duration: all 0.15s;    -webkit-transition-timing-function: ease-out;    transition-timing-function: ease-out;  }    .card:hover,.card:hover > .card-header a,.card:hover > .card-content a{      transform:scale(1);  }    @media(max-width:567px) {    .card{        margin-left:16px;        width:calc((100% - 16px)/2)    }    .card:nth-child(2n+1) {        margin-left:0    }    .card:not(:nth-child(2n+1)) {        margin-left:16px    }  }    @media(min-width:567px) {    .card {      margin-left:16px;      width:calc((100% - 32px)/3)    }    .card:nth-child(3n+1) {      margin-left:0    }    .card:not(:nth-child(3n+1)) {      margin-left:16px    }  }    @media(min-width:768px) {    .card {      margin-left:16px;      width:calc((100% - 48px)/4)    }    .card:nth-child(4n+1) {      margin-left:0    }    .card:not(:nth-child(4n+1)) {      margin-left:16px    }  }    .posts-expand .post-body img {    margin:0;    padding:0;    border:0  }    .card .card-header {    display:block;    text-align:center;    padding:.25rem .25rem;    font-weight:500;    color:#222222;    white-space:nowrap;  }    .card .card-header a {    font-style:normal;    color:#222222;    font-weight:700;    text-decoration:none;    border:0;    overflow:hidden  }    .card .card-header a:hover {    color:#222222;    text-decoration:none;    border:0  }    .card .card-content {    display:block;    text-align:center;    padding: 0 .25rem .25rem .25rem;    font-weight:500;    font-size: smaller;    color:#222222;    white-space:nowrap;  }  .card .card-content div {    overflow:hidden  }  .card .card-content a {    font-style:normal;    color:#222222;    font-weight:500;    text-decoration:none;    border:0;    overflow:hidden  }  ]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/page/page_tag.css"/>
       <url>/css/page/page_tag.css</url>
       
         <content type="html"><![CDATA[/* tags样式 */#aside-content .card-tag-cloud a {    font-size: 1.05rem !important;    border-radius: 8px;    display: inline-block;    margin-right: 4px;  }#aside-content .card-tag-cloud a:hover {    background: #ffaaff;    color: #fff !important;    box-shadow:  #a29eea;  }@media screen and (min-width: 1300px) {    #aside-content .card-tag-cloud a:hover {      transform: scale(1.03);    }    #aside-content .card-tag-cloud a:active {      transform: scale(0.97);    }  }#aside-content .card-tag-cloud a sup {    opacity: .4;    margin-left: 2px;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ohmygirl</title>
+      <link href="/gallery/ohmygirl/index.html"/>
+      <url>/gallery/ohmygirl/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.netnet/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
       
     </entry>
     
@@ -630,6 +597,39 @@
       <url>/css/page/rightside.css</url>
       
         <content type="html"><![CDATA[/* 右下角 *//* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}#rightside>div>a,#rightside>div>button {    display: flex;    align-items: center;    justify-content: center;    width: 38px;    height: 38px;    font-size: 18px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>公告栏</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>壁纸</title>
+      <link href="/gallery/wallpaper/index.html"/>
+      <url>/gallery/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

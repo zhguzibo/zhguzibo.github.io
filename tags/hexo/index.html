@@ -9,7 +9,7 @@
 <meta property="article:author" content="Gale">
 <meta property="article:tag" content="前端,Gale,北川">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://tuchuangs.com/imgs/2022/09/16/2ac3a6f96b6dc311.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/tags/hexo/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="manifest" href="/img/manifest.json"/><meta name="msapplication-TileColor" content="#425aef"/><link rel="apple-touch-icon" sizes="180x180" href="/img/pwaicons/128.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/pwaicons/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/pwaicons/16.png"/><link rel="mask-icon" href="/img/pwaicons/128.png" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://tuchuangs.com/imgs/2022/09/16/2ac3a6f96b6dc311.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/tags/hexo/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
@@ -51,7 +51,7 @@
   isHome: false,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2022-10-12 20:47:36'
+  postUpdate: '2022-10-13 08:48:21'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -230,43 +230,7 @@ document.addEventListener('pjax:error', (e) => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script><div class="app-refresh" id="app-refresh" style="position: fixed;top: -2.2rem;left: 0;right: 0;z-index: 99999;padding: 0 1rem;font-size: 15px;height: 2.2rem;transition: all 0.3s ease;"><div class="app-refresh-wrap" style=" display: flex;color: #fff;height: 100%;align-items: center;justify-content: center;"><label>✨ 有新文章啦！ 👉</label><a href="javascript:void(0)" onclick="location.reload()"><span style="color: #fff;text-decoration: underline;cursor: pointer;">🍗点击食用🍔</span></a></div></div><script>if ('serviceWorker' in navigator) {
-if (navigator.serviceWorker.controller) {
-navigator.serviceWorker.addEventListener('controllerchange', function() {
-showNotification()
-})
-}
-window.addEventListener('load', function() {
-navigator.serviceWorker.register('/sw.js')
-})
-}
-function showNotification() {
-if (GLOBAL_CONFIG.Snackbar) {
-var snackbarBg =
-document.documentElement.getAttribute('data-theme') === 'light' ?
-GLOBAL_CONFIG.Snackbar.bgLight :
-GLOBAL_CONFIG.Snackbar.bgDark
-var snackbarPos = GLOBAL_CONFIG.Snackbar.position
-Snackbar.show({
-text: '✨ 有新文章啦！ 👉',
-backgroundColor: snackbarBg,
-duration: 500000,
-pos: snackbarPos,
-actionText: '🍗点击食用🍔',
-actionTextColor: '#fff',
-onActionClick: function(e) {
-location.reload()
-},
-})
-} else {
-var showBg =
-document.documentElement.getAttribute('data-theme') === 'light' ?
-'#425aef' :
-'#1f1f1f'
-var cssText = `top: 0; background: ${showBg};`
-document.getElementById('app-refresh').style.cssText = cssText
-}
-}</script></div><!-- hexo injector body_end start --><script data-pjax>
+})</script></div><!-- hexo injector body_end start --><script data-pjax>
     function butterfly_categories_card_injector_config(){
       var parent_div_git = document.getElementById('recent-posts');
       var item_html = '<style>li.categoryBar-list-item{width:32.3%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover1.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/博客站务/&quot;);" href="javascript:void(0);">博客站务</a><span class="categoryBar-list-count">5</span><span class="categoryBar-list-descr">博客站点的管理搭建</span></li><li class="categoryBar-list-item" style="background:url(https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover2.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/学习笔记/&quot;);" href="javascript:void(0);">学习笔记</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">知识笔记的记录梳理</span></li></ul></div></div>';

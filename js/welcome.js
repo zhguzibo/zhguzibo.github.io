@@ -9,7 +9,7 @@ function welcome(){
     }
     swal({
         title: " 欢迎！",
-        text: welcome_text+'\n打开页面下方音乐以获得更佳体验！',
+        text: welcome_text+'\n在 PC 端体验更佳哦！',
         imageUrl: "/img/avatar/avatar.png",
         timer: 2000,
         showConfirmButton: false

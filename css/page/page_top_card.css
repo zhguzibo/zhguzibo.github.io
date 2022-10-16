@@ -9,12 +9,12 @@
   height: 47px;
   background-color: white;
   color: var(--font-color);
-  margin-top: 20px;
   padding: 12px 20px 10px 20px;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
   overflow: hidden;
+  z-index: 1;
 }
 [data-theme="dark"] #notice {
   background: black !important;

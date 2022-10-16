@@ -1,9 +1,3 @@
-/* @font-face {
-  font-family: Candyhome;
-  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);
-  font-display: swap;
-  font-weight: lighter;
-} */
 @font-face {
   font-family: ZhuZiAYuanJWD;
   src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
@@ -352,12 +346,6 @@ div#category  /* 分类页面 */
   border-radius: 10px;
 }
 
-/* 背景渐变色 */
-.page{
-  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);
-}
-
-
 /* 文章页H1-H6图标样式效果 */
 #article-container h1::before, 
 #article-container h2::before, 
@@ -379,4 +367,13 @@ div#category  /* 分类页面 */
 #article-container h5:hover::before, 
 #article-container h6:hover::before {
   color: #a29eea ;
+}
+
+/* 日间模式页面调整 */
+[data-theme=light] .page{
+  background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);
+} 
+/* 夜间模式页面调整 */
+[data-theme=dark] {
+  --card-bg: rgba(26, 27, 29, .9) !important; /* 全局背景调整 */
 }

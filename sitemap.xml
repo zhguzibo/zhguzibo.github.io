@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.zhguzibo.top/posts/85af</loc>
+    <loc>https://blog.zhguzibo.top/posts/85af.html</loc>
+    
+    <lastmod>2022-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zhguzibo.top/posts/3419.html</loc>
+    
+    <lastmod>2022-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zhguzibo.top/link/index.html</loc>
+    
+    <lastmod>2022-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zhguzibo.top/comments/index.html</loc>
+    
+    <lastmod>2022-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zhguzibo.top/posts/839f.html</loc>
     
     <lastmod>2022-10-10</lastmod>
     
@@ -11,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zhguzibo.top/posts/839f</loc>
+    <loc>https://blog.zhguzibo.top/posts/de16.html</loc>
     
     <lastmod>2022-10-10</lastmod>
     
@@ -20,16 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zhguzibo.top/posts/de16</loc>
-    
-    <lastmod>2022-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zhguzibo.top/posts/1020</loc>
+    <loc>https://blog.zhguzibo.top/posts/1020.html</loc>
     
     <lastmod>2022-10-09</lastmod>
     
@@ -38,16 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zhguzibo.top/posts/5f15</loc>
-    
-    <lastmod>2022-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zhguzibo.top/posts/undefined</loc>
+    <loc>https://blog.zhguzibo.top/posts/undefined.html</loc>
     
     <lastmod>2022-10-09</lastmod>
     
@@ -65,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zhguzibo.top/posts/d625</loc>
+    <loc>https://blog.zhguzibo.top/posts/d625.html</loc>
     
     <lastmod>2022-10-06</lastmod>
     
@@ -86,24 +104,6 @@
     <loc>https://blog.zhguzibo.top/stars/index.html</loc>
     
     <lastmod>2022-10-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zhguzibo.top/link/index.html</loc>
-    
-    <lastmod>2022-10-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zhguzibo.top/comments/index.html</loc>
-    
-    <lastmod>2022-09-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -211,7 +211,7 @@
 
   <url>
     <loc>https://blog.zhguzibo.top/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,35 +219,35 @@
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/hexo/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zhguzibo.top/tags/Javascript/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/Css/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zhguzibo.top/tags/Javascript/</loc>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -256,14 +256,14 @@
   
   <url>
     <loc>https://blog.zhguzibo.top/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-10-13</lastmod>
+    <lastmod>2022-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -11,13 +11,12 @@
 //     //判断是否是首页
 //     if (urlinfo == '/'){
 //       if (document.querySelector('#tags-bar')){
-//         document.getElementById('首页').classList.add("select")
+//         document.getElementById('首页').classList.add("selected")
 //       }
 //     }else {
 //       // 验证是否是分类链接
 //       var pattern = /\/tags\/.*?\//;
 //       var patbool = pattern.test(urlinfo);
-//       // console.log(patbool);
 //       // 获取当前的标签
 //       if (patbool) {
 //         var valuegroup = urlinfo.split("/");
@@ -25,7 +24,7 @@
 //         // 获取当前分类
 //         var nowTag = valuegroup[2];
 //         if (document.querySelector('#category-bar')){
-//           document.getElementById(nowTag).classList.add("select");
+//           document.getElementById(nowTag).classList.add("selected");
 //         }
 //       }
 //     } 
@@ -49,7 +48,7 @@
 //       // 获取当前分类
 //       var nowCategorie = valuegroup[2];
 //       if (document.querySelector('#category-bar')){
-//         document.getElementById(nowCategorie).classList.add("select");
+//         document.getElementById(nowCategorie).classList.add("selected");
 //       }
 //     }
 //   }
@@ -69,6 +68,7 @@
 // }, false);
 //   }
 // }
+
 function catalogActive () {
   let $list = document.getElementById('catalog-list')
   if ($list) {
@@ -82,12 +82,11 @@ function catalogActive () {
 
     // 高亮当前页面对应的分类或标签
     let $catalog = document.getElementById(decodeURIComponent(window.location.pathname))
-    // $catalog.classList.add('selected')
+    $catalog.classList.add('selected')
 
     // 滚动当前页面对应的分类或标签到中部
     $list.scrollLeft = ($catalog.offsetLeft - $list.offsetLeft) - ($list.offsetWidth - $catalog.offsetWidth) / 2
   }
 }
+catalogActive()
 
-
-catalogActive ()

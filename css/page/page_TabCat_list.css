@@ -67,7 +67,7 @@
 }
 
 .catalog-list-item:hover a {
-  background: var(--gale-main);
+  background: var(--gale-btnBgHover);
   color: var(--gale-white);
 }
 

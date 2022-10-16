@@ -48,6 +48,7 @@
     transition-timing-function: ease-out;
   }
   
+  
   .card:hover,.card:hover > .card-header a,.card:hover > .card-content a{
       transform:scale(1);
   }

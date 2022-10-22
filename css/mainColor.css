@@ -5,6 +5,7 @@
     --gale-main: var(--gale-theme);
     --gale-font-color: var(--gale-fontColor);
     --style-border: 1px solid var(--gale-cardBorder);
+    
 
 }
 
@@ -26,3 +27,4 @@
     --gale-btnBgHover: #a29eea;
     --gale-cartTextBgHover: #ffaaff;
 }
+

@@ -369,6 +369,7 @@ div#category  /* 分类页面 */
   color: #a29eea ;
 }
 
+
 /* 日间模式页面调整 */
 [data-theme=light] .page{
   background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);

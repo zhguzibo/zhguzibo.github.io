@@ -371,9 +371,13 @@ div#category  /* 分类页面 */
 
 
 /* 日间模式页面调整 */
-[data-theme=light] .page{
+[data-theme=light] .page,.post{
   background: linear-gradient(to top,#e9defa  0%,#F8C3ED 33%, #fbc8d4 66%,#BCEEF9 100%);
 } 
+
+/* [data-theme=light] {
+  --card-bg: rgba(255, 234, 234, 0.9) !important;
+} */
 /* 夜间模式页面调整 */
 [data-theme=dark] {
   --card-bg: rgba(26, 27, 29, .9) !important; /* 全局背景调整 */

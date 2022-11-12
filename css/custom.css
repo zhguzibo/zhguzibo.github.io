@@ -347,28 +347,29 @@ div#category  /* 分类页面 */
 }
 
 /* 文章页H1-H6图标样式效果 */
-#article-container h1::before, 
-#article-container h2::before, 
-#article-container h3::before, 
-#article-container h4::before, 
-#article-container h5::before, 
-#article-container h6::before {
-  content: '❖';
-  color: var(--gale-main);
-  margin-left: 5px;
-  transition: all 0.2s ease-out;
+#post #article-container.post-content h1,
+#post #article-container.post-content h2,
+#post #article-container.post-content h3,
+#post #article-container.post-content h4,
+#post #article-container.post-content h5,
+#post #article-container.post-content h6 {
+  padding-left: 0 !important; 
 }
 
-
-#article-container h1:hover::before, 
-#article-container h2:hover::before, 
-#article-container h3:hover::before, 
-#article-container h4:hover::before, 
-#article-container h5:hover::before, 
-#article-container h6:hover::before {
-  color: #a29eea ;
+#post #article-container.post-content h1::before,
+#post #article-container.post-content h2::before,
+#post #article-container.post-content h3::before,
+#post #article-container.post-content h4::before,
+#post #article-container.post-content h5::before,
+#post #article-container.post-content h6::before {
+  position: relative;
+  content: attr(data-toc) ' ';
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin-left: 0;
 }
-
 
 /* 日间模式页面调整 */
 [data-theme=light] .page,.post{

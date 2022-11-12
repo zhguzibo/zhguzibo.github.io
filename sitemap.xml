@@ -220,7 +220,7 @@
 
   <url>
     <loc>https://blog.zhguzibo.top/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -228,42 +228,42 @@
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/hexo/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/Linux/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/Css/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/tags/Javascript/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -272,14 +272,14 @@
   
   <url>
     <loc>https://blog.zhguzibo.top/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%8A%A1/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zhguzibo.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Nginx安装手册</title>
+      <link href="/posts/2494.html"/>
+      <url>/posts/2494.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h1><h2 id="创建nginx用户"><a href="#创建nginx用户" class="headerlink" title="创建nginx用户"></a>创建nginx用户</h2><p>在已有的centos7上的root用户下创建<code>nginx</code>用户：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# useradd nginx</span><br></pre></td></tr></table></figure><p>为<code>nginx</code>用户添加密码：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# passwd nginx</span><br></pre></td></tr></table></figure><p>增加<code>nginx</code>用户权限：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# vi /etc/sudoers  </span><br></pre></td></tr></table></figure><p>在<code>/etc/sudoers</code> 第101行处加入以下内容:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx  ALL=(ALL)       ALL</span><br></pre></td></tr></table></figure><p>为了便于管理，我新建了两个文件夹一个存放上传的压缩包，一个存放解压后的文件</p><p>以上内容也可不配置，使用root用户完成以下安装</p><h1 id="nginx的安装"><a href="#nginx的安装" class="headerlink" title="nginx的安装"></a>nginx的安装</h1><h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><p>解压上传的<code>nginx</code>的<code>tar</code>包：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost software]$ tar -zxvf nginx-1.21.6.tar.gz -C /opt/module/</span><br></pre></td></tr></table></figure><h2 id="安装依赖库"><a href="#安装依赖库" class="headerlink" title="安装依赖库"></a>安装依赖库</h2><p>切换到<code>nginx</code>的安装路径内</p><p>因为使用的不是root用户所以命令前都加了<code>sudo</code></p><p>安装C编译器：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost nginx-1.21.6]$ sudo yum install -y gcc</span><br></pre></td></tr></table></figure><p>安装<code>pcre</code>库：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost nginx-1.21.6]$ sudo yum install -y pcre pcre-devel</span><br></pre></td></tr></table></figure><p>安装<code>zlib</code>：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost nginx-1.21.6]$ sudo yum install -y zlib zlib-devel</span><br></pre></td></tr></table></figure><p>分别执行以下三个命令进行安装：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost nginx-1.21.6]$ sudo ./configure --prefix=/usr/local/nginx #使用prefix选项指定安装的目录</span><br><span class="line">[nginx@localhost nginx-1.21.6]$ sudo make</span><br><span class="line">[nginx@localhost nginx-1.21.6]$ sudo make install</span><br></pre></td></tr></table></figure><h2 id="启动nginx"><a href="#启动nginx" class="headerlink" title="启动nginx"></a>启动nginx</h2><p>切换到<code>nginx</code>目录下：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost nginx-1.21.6]$ cd /usr/local/nginx/sbin</span><br></pre></td></tr></table></figure><p>当前目录下存在一个可执行文件<code>nginx</code>，启动这个可执行文件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost sbin]$ sudo ./nginx</span><br></pre></td></tr></table></figure><p>此时服务已经开启，但却无法在浏览器中访问，因此需要关闭防火墙（开机不启动防火墙）</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[nginx@localhost sbin]$ sudo systemctl disable firewalld.service</span><br></pre></td></tr></table></figure><h2 id="将nginx安装成系统服务"><a href="#将nginx安装成系统服务" class="headerlink" title="将nginx安装成系统服务"></a>将nginx安装成系统服务</h2><p>创建服务脚本：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost sbin]# vi usr/lib/systemd/system/nginx.service</span><br></pre></td></tr></table></figure><p>在脚本中添加以下内容，注意安装目录</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">Unit</span>] </span><br><span class="line"><span class="string">Description=nginx</span></span><br><span class="line"><span class="string">After=network.target</span> <span class="string">remote-fs.target</span> <span class="string">nss-lookup.target</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Service</span>]</span><br><span class="line"><span class="string">Type=forking</span></span><br><span class="line"><span class="string">PIDFile=/usr/local/nginx/logs/nginx.pid</span></span><br><span class="line"><span class="string">ExecStartPre=/usr/local/nginx/sbin/nginx</span> <span class="string">-t</span> <span class="string">-c</span> <span class="string">/usr/local/nginx/conf/nginx.conf</span></span><br><span class="line"><span class="string">ExecStart=/usr/local/nginx/sbin/nginx</span> <span class="string">-c</span> <span class="string">/usr/local/nginx/conf/nginx.conf</span></span><br><span class="line"><span class="string">ExecReload=/usr/local/nginx/sbin/nginx</span> <span class="string">-s</span> <span class="string">reload</span></span><br><span class="line"><span class="string">ExecStop=/usr/local/nginx/sbin/nginx</span> <span class="string">-s</span> <span class="string">stop</span></span><br><span class="line"><span class="string">ExecQuit=/usr/local/nginx/sbin/nginx</span> <span class="string">-s</span> <span class="string">quit</span> </span><br><span class="line"><span class="string">PrivateTmp=true</span></span><br><span class="line">   </span><br><span class="line">[<span class="string">Install</span>]   </span><br><span class="line"><span class="string">WantedBy=multi-user.target</span></span><br></pre></td></tr></table></figure><p>重新加载系统服务：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost sbin]# systemctl daemon-reload</span><br></pre></td></tr></table></figure><p>启动服务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start nginx.service</span><br></pre></td></tr></table></figure><p>开机自动启动服务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable nginx.service</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安装手册 </tag>
+            
+            <tag> Nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>外挂标签</title>
       <link href="/posts/87c5.html"/>
       <url>/posts/87c5.html</url>
@@ -778,6 +805,28 @@
       <url>/gallery/ohmygirl/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.loli.netnet/2019/12/25/Fze9jchtnyJXMHN.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg" alt=""><br><img src="https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg" alt=""></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>专题</title>
+      <link href="/special/index.html"/>
+      <url>/special/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://bu.dusays.com/2021/03/06/38a2c5cd8b44e.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">算法</div>  <p>记录刷算法</p>  <a href='/special/algorithm'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>专题</title>
+      <link href="/special/algorithm/index.html"/>
+      <url>/special/algorithm/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

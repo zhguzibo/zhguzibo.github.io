@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.zhguzibo.top/sitemap.xml
+Sitemap: https://blog.zhguzibo.top/baidusitemap.xml

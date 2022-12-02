@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>前端如何实现网页变灰</title>
+      <link href="/posts/7805.html"/>
+      <url>/posts/7805.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>最近好多网站都变灰了，今天我也来从前端的角度来看一看网页变灰是如何实现的。</p><h1 id="变灰案例"><a href="#变灰案例" class="headerlink" title="变灰案例"></a>变灰案例</h1><h2 id="BiliBili"><a href="#BiliBili" class="headerlink" title="BiliBili"></a><strong>BiliBili</strong></h2><p>正常版</p><p><img src="https://i.niupic.com/images/2022/12/02/abyV.png" title="BiliBili正常版"></p><p>变灰版</p><p><img src="https://files.catbox.moe/h0yeq7.png" title="BiliBili变灰版"></p><h2 id="京东"><a href="#京东" class="headerlink" title="京东"></a>京东</h2><p>正常版</p><p><img src="https://i.niupic.com/images/2022/12/02/abyW.png" title="京东正常版"></p><p>变灰版</p><p><img src="https://i.328888.xyz/img/2022/12/02/ioLWA.png" title="京东变灰版"></p><p>从以上的两个案例可以看出，这些网站实现变灰的方式大同小异，本质上都是使用了<strong>Css</strong>中的filter属性，接下来就来看一下filter</p><h1 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h1><blockquote><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS">CSS</a>属性 <strong><code>filter</code></strong> 将模糊或颜色偏移等图形效果应用于元素。滤镜通常用于调整图像、背景和边框的渲染。</p></blockquote><p>filter支持以下几个函数：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">filter</span>: <span class="built_in">url</span>(<span class="string">&quot;../../media/examples/shadow.svg#element-id&quot;</span>);</span><br><span class="line"><span class="attribute">filter</span>: <span class="built_in">blur</span>(<span class="number">5px</span>);</span><br><span class="line"><span class="attribute">filter</span>: <span class="built_in">contrast</span>(<span class="number">200%</span>);</span><br><span class="line"><span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">80%</span>);</span><br><span class="line"><span class="attribute">filter</span>: <span class="built_in">hue-rotate</span>(<span class="number">90deg</span>);</span><br><span class="line"><span class="attribute">filter</span>: <span class="built_in">drop-shadow</span>(<span class="number">16px</span> <span class="number">16px</span> <span class="number">20px</span> red) <span class="built_in">invert</span>(<span class="number">75%</span>);</span><br></pre></td></tr></table></figure><p>其中grayscale()函数就是使网页变灰的关键，该函数有一个参数，表示转换为灰度的比例。当值为 100% 时，完全转为灰度图像；当值为 0% 时图像无变化。值在 0% 到 100% 之间，则是效果的线性乘数。若未设置值，默认是 0。</p><p>因此，只需将页面的 html 元素设置以下样式即可实现页面置灰：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">html</span> &#123;</span><br><span class="line">     <span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">100%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>那为啥很多网站变灰不仅仅是这一行代码呢？以BiliBili为例。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">html</span><span class="selector-class">.gray</span> &#123;</span><br><span class="line">    <span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">85%</span>) <span class="built_in">saturate</span>(<span class="number">80%</span>);</span><br><span class="line">    -webkit-<span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">85%</span>) <span class="built_in">saturate</span>(<span class="number">80%</span>);</span><br><span class="line">    -moz-<span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">85%</span>) <span class="built_in">saturate</span>(<span class="number">80%</span>);</span><br><span class="line">    -ms-<span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">85%</span>) <span class="built_in">saturate</span>(<span class="number">80%</span>);</span><br><span class="line">    -o-<span class="attribute">filter</span>: <span class="built_in">grayscale</span>(<span class="number">85%</span>) <span class="built_in">saturate</span>(<span class="number">80%</span>);</span><br><span class="line">    <span class="attribute">filter</span>: <span class="built_in">url</span>(<span class="string">data:image/svg+xml;utf8,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27;&gt;&lt;filter id=&#x27;grayscale&#x27;&gt;&lt;feColorMatrix type=&#x27;matrix&#x27; values=&#x27;0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0&#x27;/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale</span>);</span><br><span class="line">    <span class="attribute">filter</span>: progid:DXImageTransform.Microsoft.<span class="built_in">BasicImage</span>(grayscale=.<span class="number">85</span>);</span><br><span class="line">    -webkit-<span class="attribute">filter</span>: <span class="built_in">grayscale</span>(.<span class="number">85</span>) <span class="built_in">saturate</span>(.<span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>其实这些属性最终的效果都是一样的，它们为了对 filter 属性进行兼容。filter 属性是 CSS3 增加的属性，在不同浏览器以及低版本浏览器上，filter 属性的兼容性不尽相同。</p><ul><li>-webkit-filter：兼容带有 webkit 前缀可以在 webkit 内核的浏览器中生效</li><li>-moz-filter：兼容带有 moz  前缀可以在 Firefox 浏览器中生效</li><li>-ms-filter：兼容带有 ms 前缀可以在 IE 浏览器生效</li><li>-o-filter：兼容带有 o 前缀可以在 Opera 浏览器生效</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> Css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Nginx安装手册</title>
       <link href="/posts/2494.html"/>
       <url>/posts/2494.html</url>

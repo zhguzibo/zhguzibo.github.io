@@ -1,1 +1,24 @@
-console.log("\n    ██████████    █████╗    ██╗       ██████████╗ \n    ██║          ██   ██╗   ██║       ██════════╝  \n    ██║         ██     ██╗  ██║       ██║         \n    ██║ ██████╗███████████║ ██║       ██████████╗ \n    ██║    ║██║██╔═══════██║██║       ██════════╝ \n    ██╚════╝██║██║       ██║██║       ██║         \n    ██████████║██║       ██║█████████╗██████████╗ \n    ╚═════════╝╚═╝       ╚═╝╚════════╝╚═════════╝ ");var now=new Date;function createtime(){var n=new Date("09/16/2022 00:00:00");now.setTime(now.getTime()+250);var e=(now-n)/1e3/60/60/24,t=Math.floor(e),a=(now-n)/1e3/60/60-24*t,o=Math.floor(a);1==String(o).length&&(o="0"+o);var r=(now-n)/1e3/60-1440*t-60*o,l=Math.floor(r);1==String(l).length&&(l="0"+l);var i=(now-n)/1e3-86400*t-3600*o-60*l,s=Math.round(i);1==String(s).length&&(s="0"+s);let w="";w=`\n    <span class='textTip'>  本站居然运行了 ${t} 天</span>\n    <span id='runtime'> ${o} 小时 ${l} 分 ${s} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=w)}setInterval((()=>{createtime()}),250);
+// console.clear();  // 清屏
+console.log(`
+    ██████████    █████╗    ██╗       ██████████╗ 
+    ██║          ██   ██╗   ██║       ██════════╝  
+    ██║         ██     ██╗  ██║       ██║         
+    ██║ ██████╗███████████║ ██║       ██████████╗ 
+    ██║    ║██║██╔═══════██║██║       ██════════╝ 
+    ██╚════╝██║██║       ██║██║       ██║         
+    ██████████║██║       ██║█████████╗██████████╗ 
+    ╚═════════╝╚═╝       ╚═╝╚════════╝╚═════════╝ `);
+
+    // 底部本站运行时间
+var now=new Date;
+function createtime(){
+    var grt=new Date("09/16/2022 00:00:00");
+    now.setTime(now.getTime()+250);
+    var days=(now-grt)/1e3/60/60/24,dnum=Math.floor(days),hours=(now-grt)/1e3/60/60-24*dnum,hnum=Math.floor(hours);1==String(hnum).length&&(hnum="0"+hnum);
+    var minutes=(now-grt)/1e3/60-1440*dnum-60*hnum,mnum=Math.floor(minutes);1==String(mnum).length&&(mnum="0"+mnum);
+    var seconds=(now-grt)/1e3-86400*dnum-3600*hnum-60*mnum,snum=Math.round(seconds);1==String(snum).length&&(snum="0"+snum);let currentTimeHtml="";
+    currentTimeHtml=`
+    <span class='textTip'>  本站居然运行了 ${dnum} 天</span>
+    <span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}setInterval(()=>{createtime()},250);
+
+

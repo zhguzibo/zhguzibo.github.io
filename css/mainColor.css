@@ -1,1 +1,32 @@
-:root{--gale-white:#fff;--gale-black:#000;--gale-main:var(--gale-theme);--gale-font-color:var(--gale-fontColor);--style-border:1px solid var(--gale-cardBorder)}[data-theme=light]{--gale-theme:#ffaaff;--gale-fontColor:var(--gale-black);--gale-cardBg:#fff;--gale-cardBorder:#e3e8f7;--gale-btnBg:#ffaaff;--gale-btnBgHover:#a29eea;--gale-cartTextBgHover:#ffaaff;--card-bg:rgba(255, 234, 234, 0.9)!important}[data-theme=dark]{--gale-theme:#ffaaff;--gale-fontColor:var(--gale-white);--gale-cardBg:#1d1b26;--gale-cardBorder:#42444a;--gale-btnBg:#ffaaff;--gale-btnBgHover:#a29eea;--gale-cartTextBgHover:#ffaaff;--card-bg:rgba(26, 27, 29, .9)!important}
+/* 配置主色调 */
+:root{
+    --gale-white:#fff;
+    --gale-black:#000;
+    --gale-main: var(--gale-theme);
+    --gale-font-color: var(--gale-fontColor);
+    --style-border: 1px solid var(--gale-cardBorder);
+}
+
+[data-theme=light] {
+    --gale-theme:#ffaaff;
+    --gale-fontColor: var(--gale-black);
+    --gale-cardBg: #fff;   
+    --gale-cardBorder: #e3e8f7;
+    --gale-btnBg: #ffaaff;
+    --gale-btnBgHover: #a29eea;
+    --gale-cartTextBgHover: #ffaaff;
+    /* 日间模式全局背景调整 */
+    --card-bg: rgba(255, 234, 234, 0.9) !important;
+}
+[data-theme=dark] {
+    --gale-theme:#ffaaff;
+    --gale-fontColor: var(--gale-white);
+    --gale-cardBg: #1d1b26;
+    --gale-cardBorder: #42444a;
+    --gale-btnBg: #ffaaff;
+    --gale-btnBgHover: #a29eea;
+    --gale-cartTextBgHover: #ffaaff;
+    /* 夜间模式全局背景调整 */
+    --card-bg: rgba(26, 27, 29, .9) !important; /* 全局背景调整 */
+}
+

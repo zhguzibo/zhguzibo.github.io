@@ -126,7 +126,6 @@
   background: var(--gale-main) !important;
 }
 
-
 @media screen and (max-width: 768px) {
   #recent-posts #sticky {
     width: 100%;

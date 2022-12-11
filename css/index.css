@@ -3360,40 +3360,10 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover1.webp');
-}
-li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover2.webp');
-}
-li.categoryBar-list-item:nth-child(3) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover3.webp');
-}
-li.categoryBar-list-item:nth-child(4) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover4.webp');
-}
-li.categoryBar-list-item:nth-child(5) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover5.webp');
-}
-li.categoryBar-list-item:nth-child(6) {
-  background: url('https://cdn.cbd.int/akilar-candyassets@1.0.36/image/cover6.webp');
+  background: ;
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '博客站点的管理搭建' !important;
-}
-li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '知识笔记的记录梳理' !important;
-}
-li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '某一问题的解决方案' !important;
-}
-li.categoryBar-list-item:nth-child(4)>span::after {
-  content: '项目成果的总结归纳' !important;
-}
-li.categoryBar-list-item:nth-child(5)>span::after {
-  content: '资源好文的收集推荐' !important;
-}
-li.categoryBar-list-item:nth-child(6)>span::after {
-  content: '趣事轶闻的吐槽感悟' !important;
+  content: '' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
